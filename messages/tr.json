@@ -1,0 +1,38 @@
+{
+    "Navbar":{
+    "institutional":"Kurumsal",
+    "project":"Projeler",
+    "vilas":"Villalar",
+    "contact":"İletişim"
+    },
+
+    "Home":{
+    "title":"AdaGo",
+    "description":"Antalya'nın huzur dolu ve doğal güzelliklerle çevrili Ermenek bölgesinde yer alan firmamız, prestijli ve lüks yaşam alanları oluşturma misyonuyla faaliyet göstermektedir. Uzman ekibimiz ve titizlikle seçtiğimiz malzemelerle, her biri benzersiz olan villalarımızı hayata geçiriyoruz."
+    },
+
+     "Values":{
+        "title":"Biz Kimiz ?",
+        "subTitle":"AdaGo Firması"   ,
+        "text":"Antalya'nın gözde inşaat firmalarından biri olarak, kaliteli ve lüks yaşam alanları sunmayı hedefliyoruz. Yılların tecrübesi ve yenilikçi bakış açımızla, müşteri memnuniyetini her zaman ön planda tutuyoruz. Modern mimari anlayışımız ve çevreye duyarlı yaklaşımımızla, konforlu ve estetik villalar inşa ediyoruz."  
+    },
+
+    "Contact":{
+        "title":"İletişime geçin",
+        "subTitle":"Bize sorun",
+        "name":"Ad",
+        "email":"Soyad",
+        "subject":"Konu",
+        "message":"Mesaj",
+        "send":"Mesaj gönder"
+    },
+
+    "Information":{
+        "phone":"Telefon",
+        "phoneText":"+90 123 456 78 90",
+        "email":"Email",
+        "emailText":"info@adago.com",
+        "location":"Konum",
+        "locationText":"Antalya, Türkiye"
+    }
+}
