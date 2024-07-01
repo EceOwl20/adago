@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import LogoWhite from "@/public/images/logoWhite.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +14,10 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full justify-between items-center bg-transparent p-4">
-      <div className="w-1/6">logo</div>
-      <div className="hidden md:flex w-4/5 justify-between">
+      <div className="w-1/2 md:w-1/3 lg:w-1/6 bg-black">
+        <Image src={LogoWhite} alt="logo" />
+      </div>
+      <div className="hidden md:flex w-4/5 justify-end gap-10">
         <Link
           href="/"
           className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
