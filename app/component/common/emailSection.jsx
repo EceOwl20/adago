@@ -2,13 +2,13 @@ import React from "react";
 
 const emailSection = () => {
   return (
-    <div className="flex  justify-center ">
-      <div className="flex flex-col gap-[20px] p-[30px] justify-center items-start h-[500px] w-4/6 bg-gray-100 rounded-md font-hurme">
-        <span className="text-flameOrange text-sm lg:text-xl  font-semibold">
-          Contact Us
-        </span>
-        <div className="flex gap-[20px] justify-center items-center w-full">
-          <input
+
+    <div className='flex  justify-center '>
+      <div className='flex flex-col gap-[20px] p-[30px] justify-center items-start h-[500px] w-5/6 xl:w-1/2 bg-darkSeaBlue rounded-md font-hurme'>
+      <span className="text-flameOrange text-sm md:text-xl lg:text-2xl  font-semibold">Contact Us</span>
+        <div className='flex gap-[20px] justify-center items-center w-full'>
+            <input
+
             type="text"
             placeholder="Name"
             className="border-[1px] text-sm lg:text-lg border-haki rounded-sm w-1/2 py-[4px]"

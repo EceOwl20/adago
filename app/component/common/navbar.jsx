@@ -13,8 +13,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full justify-between items-center bg-transparent p-4">
-      <div className="w-1/2 md:w-1/3 lg:w-1/6 bg-black">
+    <div className="flex w-full justify-between items-center bg-transparent fixed p-4 z-50">
+      <div className="w-1/2 md:w-1/3 lg:w-1/6 ">
         <Image src={LogoWhite} alt="logo" />
       </div>
       <div className="hidden md:flex w-4/5 justify-end gap-10">
@@ -37,7 +37,7 @@ const Navbar = () => {
           VİLLALAR
         </Link>
         <Link
-          href="/"
+          href="/#contact"
           className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           İLETİŞİM

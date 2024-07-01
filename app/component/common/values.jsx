@@ -17,10 +17,7 @@ const values = () => {
             AdaGo Company Story
           </span>
           <text className="text-sm lg:text-base break-keep">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            dolor, dolorem eveniet amet ipsa consequuntur numquam reiciendis,
-            vel laboriosam nihil ea. Laborum laboriosam eos sunt libero
-            reiciendis animi inventore eum!
+          Antalya'nın gözde inşaat firmalarından biri olarak, kaliteli ve lüks yaşam alanları sunmayı hedefliyoruz. Yılların tecrübesi ve yenilikçi bakış açımızla, müşteri memnuniyetini her zaman ön planda tutuyoruz. Modern mimari anlayışımız ve çevreye duyarlı yaklaşımımızla, konforlu ve estetik villalar inşa ediyoruz.
           </text>
         </div>
       </div>
