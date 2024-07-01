@@ -5,7 +5,7 @@ import { LuMapPin } from "react-icons/lu";
 
 const Contactus = () => {
   return (
-    <div id="contact" className='flex w-full items-center justify-center mb-[100px]'>
+    <div  className='flex w-full items-center justify-center mb-[100px]'>
         <div className='flex flex-col gap-[20px] p-4 font-hurme bg-darkSeaBlue items-start justify-center text-white rounded-md py-[10x] lg:py-[40px]  w-4/6 lg:w-1/3 ' >
             <div className='flex gap-[20px] items-center justify-center'>
                 <LuPhone size={24}/>
