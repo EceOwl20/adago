@@ -3,7 +3,7 @@ import React from 'react'
 const emailSection = () => {
   return (
     <div className='flex  justify-center '>
-      <div className='flex flex-col gap-[20px] p-[30px] justify-center items-start h-[500px] w-4/6 bg-slate-100 rounded-md font-hurme'>
+      <div className='flex flex-col gap-[20px] p-[30px] justify-center items-start h-[500px] w-4/6 bg-gray-100 rounded-md font-hurme'>
       <span className="text-flameOrange text-sm lg:text-xl  font-semibold">Contact Us</span>
         <div className='flex gap-[20px] justify-center items-center w-full'>
             <input
