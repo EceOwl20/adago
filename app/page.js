@@ -2,6 +2,8 @@ import Image from "next/image";
 import Contactus from "./component/common/contactus.jsx"
 import EmailSection from "./component/common/emailSection.jsx"
 import Values from "./component/common/values.jsx";
+import Villalar from "./component/common/villalar.jsx";
+import Villatipleri from "@/app/component/common/villatipleri.jsx"
 
 export default function Home() {
   return (
@@ -9,6 +11,9 @@ export default function Home() {
       <Values/>
       <EmailSection/>
       <Contactus/>
+      <Villalar/>
+      <Villatipleri/>
+      
     </div>
   );
 }
