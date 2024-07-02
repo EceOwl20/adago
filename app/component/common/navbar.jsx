@@ -13,43 +13,43 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full justify-between items-center bg-transparent fixed p-4 z-50">
-      <div className="w-1/2 md:w-1/3 lg:w-1/6 ">
+    <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-50">
+      <div className="w-1/2 md:w-1/3 lg:w-1/4 ">
         <Image src={LogoWhite} alt="logo" />
       </div>
-      <div className="hidden md:flex w-4/5 justify-end gap-10">
+      <div className="hidden md:flex w-4/5 md:justify-end justify-end gap-10">
         <Link
           href="/"
-          className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
+          className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           KURUMSAL
         </Link>
         <Link
           href="/"
-          className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
+          className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           PROJELER
         </Link>
         <Link
           href="/"
-          className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
+          className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           VİLLALAR
         </Link>
         <Link
           href="/#contact"
-          className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
+          className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           İLETİŞİM
         </Link>
-        <div className="w-1/6">dil seçeneği</div>
+        <div className="w-1/12 text-white">TR</div>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
