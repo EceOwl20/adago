@@ -9,9 +9,9 @@ import { GiHomeGarage } from "react-icons/gi";
 const roomDetail = ({roomName,roomDetail, images}) => {
   return (
     <div className="flex mt-32 w-full justify-center items-center">
-      <div className="flex flex-col-reverse lg:flex-row font-hurme mx-4 w-11/12">
+      <div className="flex flex-col-reverse lg:flex-row font-hurme w-4/5">
         <Room images={images}/>
-        <div className="flex flex-col gap-[10px] items-start justify-start mx-4 w-full ">
+        <div className="flex flex-col gap-[10px] items-start justify-start  w-full ">
         <span className="text-royalBlue text-base md:text-xl lg:text-2xl xl:text-3xl font-semibold"> {roomName}</span>
         <text className="text-darkSeaBlue text-sm md:text-base lg:text-lg xl:text-xl font-light">
           {roomDetail}

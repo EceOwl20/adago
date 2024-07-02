@@ -6,16 +6,16 @@ import { defaultLocale, locales } from "@/config";
 
 import HomeVilla from "./component/common/homeVilla.jsx";
 import ContactEmail from "./component/common/contactEmail.jsx";
-import Room from "./component/common/room.jsx";
+import RoomDetail from "./component/common/roomDetail.jsx";
 
+const r="hfghtghgfytj";
+const rt="asdsdfasdas";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-[140px]">
+    <div className="flex flex-col gap-44">
       <HomeVilla/>
       <Values/>
-      <ContactEmail/>
-      <Room/>
 
     </div>
   );
