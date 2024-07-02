@@ -4,13 +4,17 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LogoWhite from "@/public/images/logoWhite.png";
+import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
+import LangSwitcher from "../../../../LangSwitcher";
 
-const Navbar = () => {
+const Navbar = () => {const currentPath = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const t=useTranslations("Navbar")
 
   return (
     <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-50">
@@ -22,7 +26,7 @@ const Navbar = () => {
           href="/"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          KURUMSAL
+          {t("institutional")}
         </Link>
         <Link
           href="/"
@@ -42,7 +46,7 @@ const Navbar = () => {
         >
           İLETİŞİM
         </Link>
-        <div className="w-1/12 text-white">TR</div>
+        <div className="w-1/12 text-black"><LangSwitcher /></div>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu}>
@@ -89,7 +93,7 @@ const Navbar = () => {
             İLETİŞİM
           </Link>
           <div className="py-2 w-1/5 text-black font-semibold font-hurme text-base">
-            DİL{" "}
+          <LangSwitcher />
           </div>
         </div>
       )}
