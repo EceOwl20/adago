@@ -8,13 +8,13 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "../../../../LangSwitcher";
 
-const Navbar = () => {const currentPath = usePathname();
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  const t=useTranslations("Navbar")
+  const t=useTranslations("Navbar");
 
   return (
     <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-50">
@@ -32,21 +32,23 @@ const Navbar = () => {const currentPath = usePathname();
           href="/"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          PROJELER
+          {t("project")}
         </Link>
         <Link
           href="/"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          VİLLALAR
+          {t("vilas")}
         </Link>
         <Link
           href="/#contact"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          İLETİŞİM
+          {t("contact")}
         </Link>
-        <div className="w-1/12 text-black"><LangSwitcher /></div>
+        <div className=" justify-center items-center text-black text-base  lg:text-lg xl:text-xl text-center cursor-pointer ">
+            <LangSwitcher />
+          </div>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu}>

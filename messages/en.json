@@ -24,7 +24,12 @@
         "email":"Email",
         "subject":"Subject",
         "message":"Message",
-        "send":"Send Message"
+        "send":"Send Message",
+        "phone":"Phone",
+        "phoneText":"+90 123 456 78 90",
+        "emailText":"info@adago.com",
+        "location":"Location",
+        "locationText":"Antalya, Turkey"
     },
 
     "Information":{

@@ -21,10 +21,15 @@
         "title":"İletişime geçin",
         "subTitle":"Bize sorun",
         "name":"Ad",
-        "email":"Soyad",
         "subject":"Konu",
         "message":"Mesaj",
-        "send":"Mesaj gönder"
+        "send":"Mesaj gönder",
+        "phone":"Telefon",
+        "phoneText":"+90 123 456 78 90",
+        "email":"Email",
+        "emailText":"info@adago.com",
+        "location":"Konum",
+        "locationText":"Antalya, Türkiye"
     },
 
     "Information":{

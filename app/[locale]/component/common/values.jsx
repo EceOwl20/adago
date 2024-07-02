@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import business from "@/public/images/business.jpeg";
+import { useTranslations } from "next-intl";
 
 const values = () => {
+
+  const t=useTranslations("Values");
+
   return (
     <div className="flex w-full bg-white justify-center items-center ">
       <div className="flex flex-col lg:flex-row w-full xl:w-3/5 justify-center items-center gap-[30px] xl:gap-[70px] mx-[25px] md:mx-[45px]">
@@ -11,13 +15,13 @@ const values = () => {
         </div>
         <div className="flex flex-col xl:w-2/3 font-hurme items-start justify-center gap-[5px] lg:gap-[15px] ">
           <span className="text-base md:text-lg lg:text-xl font-semibold uppercase">
-            Who we are?
+            {t("title")}
           </span>
           <span className="text-base md:text-lg lg:text-2xl font-bold text-royalBlue">
-            AdaGo Company Story
+          {t("subTitle")}
           </span>
           <text className="text-sm lg:text-base break-keep">
-          Antalya'nın gözde inşaat firmalarından biri olarak, kaliteli ve lüks yaşam alanları sunmayı hedefliyoruz. Yılların tecrübesi ve yenilikçi bakış açımızla, müşteri memnuniyetini her zaman ön planda tutuyoruz. Modern mimari anlayışımız ve çevreye duyarlı yaklaşımımızla, konforlu ve estetik villalar inşa ediyoruz.
+          {t("text")}
           </text>
         </div>
       </div>
