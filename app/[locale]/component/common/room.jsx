@@ -1,24 +1,8 @@
 'use client';
-
 import React, { useState } from 'react';
 import Image from 'next/image';
-import aynaoda from "@/public/images/villalar/aynaoda1.jpeg";
-import aynaoda2 from "@/public/images/villalar/aynaoda2.jpeg";
-import aynaoda3 from "@/public/images/villalar/aynaoda3.jpeg";
-import aynaoda4 from "@/public/images/villalar/aynaoda4.jpeg";
-import aynaoda5 from "@/public/images/villalar/aynaoda5.jpeg";
 
-const imagesObj = {
-  aynaoda,
-  aynaoda2,
-  aynaoda3,
-  aynaoda4,
-  aynaoda5,
-};
-
-const images = Object.values(imagesObj);
-
-const Room = () => {
+const Room = ({images}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
