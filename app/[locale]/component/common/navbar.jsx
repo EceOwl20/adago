@@ -17,13 +17,13 @@ const Navbar = () => {
   const t=useTranslations("Navbar");
 
   return (
-    <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-50">
-      <div className="w-1/2 md:w-1/3 lg:w-1/4 ">
-        <Image src={LogoWhite} alt="logo" />
+    <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-[9999]">
+      <div className="w-1/2 md:w-1/3 lg:w-1/6 ">
+        <Link href="/"><Image src={LogoWhite} alt="logo" /></Link>
       </div>
-      <div className="hidden md:flex w-4/5 md:justify-end justify-end gap-10">
+      <div className="hidden md:flex w-4/5 md:justify-end justify-end items-center gap-10">
         <Link
-          href="/"
+          href="/#a"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("institutional")}
@@ -35,18 +35,18 @@ const Navbar = () => {
           {t("project")}
         </Link>
         <Link
-          href="/"
+          href="/villapage"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("vilas")}
         </Link>
         <Link
-          href="/#contact"
+          href="/contactpage"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("contact")}
         </Link>
-        <div className=" justify-center items-center text-black text-base  lg:text-lg xl:text-xl text-center cursor-pointer ">
+        <div className=" justify-center items-center md:text-white md:bg-darkSeaBlue text-base lg:text-lg xl:text-xl text-center cursor-pointer ">
             <LangSwitcher />
           </div>
       </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
           >
             İLETİŞİM
           </Link>
-          <div className="py-2 w-1/5 text-black font-semibold font-hurme text-base">
+          <div className="py-2 w-1/5  font-semibold font-hurme text-base">
           <LangSwitcher />
           </div>
         </div>
