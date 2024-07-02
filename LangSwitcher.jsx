@@ -1,3 +1,4 @@
+
 import { useLocale, useTranslations } from "next-intl";
 import { locales } from "@/config";
 import LocaleSwitcherSelect from "./LocaleSwitcherSelect";

@@ -3,9 +3,12 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logoImage from "@/public/images/logoWhite.png"
+import { useTranslations } from "next-intl";
 
 
 const Footer = () => {
+  const t=useTranslations("Navbar");
+
   return (
     <div className="flex flex-col bg-darkSeaBlue h-[150px] w-full">
       <div className="flex flex-row items-center w-full justify-evenly bg-darkSeaBlue font-hurme  h-5/6">
@@ -17,13 +20,13 @@ const Footer = () => {
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
-            VİLLALAR
+            {t("vilas")}
           </Link>
           <Link
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
-            İLETİŞİM
+            {t("contact")}
           </Link>
         </div>
 
@@ -40,13 +43,13 @@ const Footer = () => {
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
-            KURUMSAL
+            {t("institutional")}
           </Link>
           <Link
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
-            PROJELERİ
+            {t("project")}
           </Link>
           
         </div>
