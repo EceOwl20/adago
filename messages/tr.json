@@ -1,43 +1,74 @@
 {
-    "Navbar":{
-    "institutional":"Kurumsal",
-    "project":"Projeler",
-    "vilas":"Villalar",
-    "contact":"İletişim"
-    },
+  "LocaleSwitcher": {
+    "label": "Dili Değiştir",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Bilinmeyen}}"
+  },
 
-    "Home":{
-    "title":"AdaGo",
-    "description":"Antalya'nın huzur dolu ve doğal güzelliklerle çevrili Ermenek bölgesinde yer alan firmamız, prestijli ve lüks yaşam alanları oluşturma misyonuyla faaliyet göstermektedir. Uzman ekibimiz ve titizlikle seçtiğimiz malzemelerle, her biri benzersiz olan villalarımızı hayata geçiriyoruz."
-    },
+  "Navbar": {
+    "institutional": "Kurumsal",
+    "project": "Projeler",
+    "vilas": "Villalar",
+    "contact": "İletişim"
+  },
 
-     "Values":{
-        "title":"Biz Kimiz ?",
-        "subTitle":"AdaGo Firması"   ,
-        "text":"Adago Yapı İnşaat, Antalya’nın Ermenek bölgesinde villa inşaatı alanında uzmanlaşmış bir firmadır. Kaliteli, estetik ve fonksiyonel yaşam alanları sunarak, müşterilerimizin hayallerini gerçeğe dönüştürüyoruz. Profesyonel ekibimizle birlikte projelerimizi zamanında ve bütçeye uygun şekilde tamamlıyor, müşteri memnuniyetini ön planda tutuyoruz. Adago Yapı İnşaat olarak, güvenilir, yenilikçi ve müşteri odaklı hizmet anlayışımızla sizlere en iyisini sunmayı hedefliyoruz."  
-    },
+  "Home": {
+    "title": "AdaGo",
+    "description": "Antalya'nın huzur dolu ve doğal güzelliklerle çevrili Ermenek bölgesinde yer alan firmamız, prestijli ve lüks yaşam alanları oluşturma misyonuyla faaliyet göstermektedir. Uzman ekibimiz ve titizlikle seçtiğimiz malzemelerle, her biri benzersiz olan villalarımızı hayata geçiriyoruz."
+  },
 
-    "Contact":{
-        "title":"İletişime geçin",
-        "subTitle":"Bize sorun",
-        "name":"Ad",
-        "subject":"Konu",
-        "message":"Mesaj",
-        "send":"Mesaj gönder",
-        "phone":"Telefon",
-        "phoneText":"+90 123 456 78 90",
-        "email":"Email",
-        "emailText":"info@adago.com",
-        "location":"Konum",
-        "locationText":"Antalya, Türkiye"
-    },
+  "Values": {
+    "title": "Biz Kimiz ?",
+    "subTitle": "AdaGo Firması",
+    "text": "Adago Yapı İnşaat, Antalya’nın Ermenek bölgesinde villa inşaatı alanında uzmanlaşmış bir firmadır. Kaliteli, estetik ve fonksiyonel yaşam alanları sunarak, müşterilerimizin hayallerini gerçeğe dönüştürüyoruz. Profesyonel ekibimizle birlikte projelerimizi zamanında ve bütçeye uygun şekilde tamamlıyor, müşteri memnuniyetini ön planda tutuyoruz. Adago Yapı İnşaat olarak, güvenilir, yenilikçi ve müşteri odaklı hizmet anlayışımızla sizlere en iyisini sunmayı hedefliyoruz."
+  },
 
-    "Information":{
-        "phone":"Telefon",
-        "phoneText":"+90 123 456 78 90",
-        "email":"Email",
-        "emailText":"info@adago.com",
-        "location":"Konum",
-        "locationText":"Antalya, Türkiye"
-    }
+  "Contact": {
+    "title": "İletişime geçin",
+    "subTitle": "Bize sorun",
+    "name": "Ad",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "send": "Mesaj gönder",
+    "phone": "Telefon",
+    "phoneText": "+90 123 456 78 90",
+    "email": "Email",
+    "emailText": "info@adago.com",
+    "location": "Konum",
+    "locationText": "Antalya, Türkiye"
+  },
+
+  "Information": {
+    "phone": "Telefon",
+    "phoneText": "+90 123 456 78 90",
+    "email": "Email",
+    "emailText": "info@adago.com",
+    "location": "Konum",
+    "locationText": "Antalya, Türkiye"
+  },
+
+  "Room":{
+    "blueBedroom":"Yatak odası mavi",
+    "tvRoom":"Tv yatak odası",
+    "wc":"Banyo",
+    "salon":"Salon",
+    "bedroom":"Yatak Odası",
+    "hall":"Hol",
+    "room":"Oda",
+    "blueBedroomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "tvRoomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "wcText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "salonText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "bedroomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "hallText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
+    "roomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet."
+  },
+
+  "Icons":{
+    "sea":"Denize uzaklık 4 km",
+    "pool":"Havuz",
+    "smart":"Akıllı Ev",
+    "furnis":"Eşyalı",
+    "elevator":"Asansör",
+    "garage":"Garaj"
+  }
 }

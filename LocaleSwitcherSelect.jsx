@@ -29,7 +29,7 @@ export default function LocaleSwitcherSelect({
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-row items-center justify-center gap-1 uppercase rounded-md py-2 font-medium !important  mix-blend-difference"
       >
-        {defaultValue}
+        {label}
         <MdOutlineArrowDropDown />
       </button>
       {isOpen && (
@@ -45,7 +45,7 @@ export default function LocaleSwitcherSelect({
                   className="cursor-pointer py-2 hover:bg-gray-100 uppercase md:bg-darkSeaBlue p-2"
                   onClick={() => handleLangChange(child.key)}
                 >
-                  {child.key}
+                  {child.props.children}
                 </li>
               );
             })}

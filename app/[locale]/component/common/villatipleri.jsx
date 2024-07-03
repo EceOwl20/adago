@@ -16,7 +16,7 @@ const Villatipleri = () => {
         </div>
       </div>
       <div className="lg:grid lg:grid-cols-4 w-full gap-4 flex flex-col lg:flex-row">
-        <Link href="/villa1" passHref>
+        <Link href="/villa1" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
@@ -34,7 +34,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa2" passHref>
+        <Link href="/villa1" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center  "
             style={{
@@ -52,7 +52,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa3" passHref>
+        <Link href="/villa1" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
@@ -70,7 +70,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa4" passHref>
+        <Link href="/villa1" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
