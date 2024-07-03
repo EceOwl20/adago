@@ -70,5 +70,18 @@
     "furnis":"Eşyalı",
     "elevator":"Asansör",
     "garage":"Garaj"
+  },
+
+  "Vilas":{
+    "header":"Villalar",
+    "text":"Lorem ipsum dolor sit amet. tr",
+    "subTitle":"villa 1",
+    "subTitle2":"villa 2",
+    "subTitle3":"villa 3",
+    "subTitle4":"villa 4",
+    "subText":"villa 1 text",
+    "subText2":"villa 2 text",
+    "subText3":"villa 3 text",
+    "subText4":"villa 4 text"
   }
 }

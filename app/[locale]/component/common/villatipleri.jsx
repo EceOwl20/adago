@@ -6,8 +6,11 @@ import Villa2 from "@/public/images/villalar/villa2.jpeg";
 import Villa3 from "@/public/images/villalar/villa3.jpeg";
 import Villa4 from "@/public/images/villalar/villa4.jpeg";
 import LogoWhite from "@/public/images/logoWhite.png";
+import { useTranslations } from "next-intl";
 
 const Villatipleri = () => {
+  const t=useTranslations("Vilas");
+
   return (
     <div>
       <div className="flex flex-col bg-darkSeaBlue w-full h-1/2 p-2 items-center">
@@ -27,10 +30,10 @@ const Villatipleri = () => {
           >
             <div className="bg-black/30 absolute inset-0 z-[1px]"></div>
             <h2 className="z-10 text-white font-semibold font-hurme text-3xl md:text-4xl lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Lorem, ipsum.
+              {t("subTitle")}
             </h2>
             <h3 className="z-10 text-white font-semibold font-hurme text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
-              Lorem ipsum dolor sit amet.
+            {t("subText")}
             </h3>
           </div>
         </Link>
@@ -45,10 +48,10 @@ const Villatipleri = () => {
           >
             <div className="bg-black/30 absolute inset-0 z-[1px]"></div>
             <h2 className="z-10 text-white font-semibold font-hurme text-3xl md:text-4xl lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Lorem, ipsum.
+            {t("subTitle2")}
             </h2>
             <h3 className="z-10 text-white font-semibold font-hurme text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
-              Lorem ipsum dolor sit amet.
+            {t("subText2")}
             </h3>
           </div>
         </Link>
@@ -63,10 +66,10 @@ const Villatipleri = () => {
           >
             <div className="bg-black/30 absolute inset-0 z-[1px]"></div>
             <h2 className="z-10 text-white font-semibold font-hurme text-3xl md:text-4xl lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Lorem, ipsum.
+            {t("subTitle3")}
             </h2>
             <h3 className="z-10 text-white font-semibold font-hurme text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
-              Lorem ipsum dolor sit amet.
+            {t("subText3")}
             </h3>
           </div>
         </Link>
@@ -81,10 +84,10 @@ const Villatipleri = () => {
           >
             <div className="bg-black/30 absolute inset-0 z-[1px]"></div>
             <h2 className="z-10 text-white font-semibold font-hurme text-3xl md:text-4xl lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Lorem, ipsum.
+            {t("subTitle4")}
             </h2>
             <h3 className="z-10 text-white font-semibold font-hurme text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
-              Lorem ipsum dolor sit amet.
+            {t("subText4")}
             </h3>
           </div>
         </Link>

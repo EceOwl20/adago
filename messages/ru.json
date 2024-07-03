@@ -73,5 +73,18 @@
     "furnis":"меблированный дом",
     "elevator":"Поднимать",
     "garage":"Гараж"
+  },
+
+  "Vilas":{
+    "header":"виллы",
+    "text":"Lorem ipsum dolor sit amet. ru",
+    "subTitle":"Вилла 1",
+    "subTitle2":"Вилла 2",
+    "subTitle3":"Вилла 3",
+    "subTitle4":"Вилла 4",
+    "subText":"Вилла 1 текст",
+    "subText2":"Вилла 2 текст",
+    "subText3":"Вилла 3 текст",
+    "subText4":"Вилла 4 текст"
   }
 }

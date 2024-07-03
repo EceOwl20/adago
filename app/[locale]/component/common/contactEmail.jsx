@@ -5,12 +5,11 @@ import { LuMapPin } from "react-icons/lu";
 import { useTranslations } from "next-intl";
 
 const contactEmail = () => {
-  const t=useTranslations("Contact")
-
+  const t=useTranslations("Contact");
   return (
-    <div id="contact"  className="flex  mb-[140px] justify-center mt-[200px]">
+    <div id="contact"  className="flex  mb-[140px] justify-center mt-[100px] lg:mt-[200px]">
 
-      <div className="flex flex-col lg:flex-row justify-center items-center xl:w-3/5">
+      <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-4 items-center xl:w-3/5">
         <div className="flex flex-col gap-[20px] p-[30px] mx-[40px] justify-center items-start w-full xl:w-2/3 rounded-md font-hurme bg-darkSeaBlue">
           <span className="text-flameOrange text-xl lg:text-2xl font-semibold">
           {t("title")}

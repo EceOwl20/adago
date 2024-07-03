@@ -74,25 +74,25 @@ const Navbar = () => {
             href="/"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
-            KURUMSAL
+            {t("institutional")}
           </Link>
           <Link
             href="/"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
-            PROJELER
+            {t("project")}
+          </Link>
+          <Link
+            href="/villapage"
+            className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
+          >
+            {t("vilas")}
           </Link>
           <Link
             href="/"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
-            VİLLALAR
-          </Link>
-          <Link
-            href="/"
-            className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
-          >
-            İLETİŞİM
+            {t("contact")}
           </Link>
           <div className="py-2 w-1/5  font-semibold font-hurme text-base">
           <LangSwitcher />
