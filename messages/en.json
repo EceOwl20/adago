@@ -1,43 +1,74 @@
 {
-    "Navbar":{
-    "institutional":"Institutional",
-    "project":"Project",
-    "vilas":"Villas",
-    "contact":"Contact"
-    },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Unknown}}"
+  },
 
-    "Home":{
-    "title":"AdaGo",
-    "description":"Located in the Ermenek region of Antalya, surrounded by peaceful and natural beauties, our company operates with the mission of creating prestigious and luxurious living spaces. We bring to life our villas, each of which is unique, with our expert team and carefully selected materials."
-    },
+  "Navbar": {
+    "institutional": "Institutional",
+    "project": "Project",
+    "vilas": "Villas",
+    "contact": "Contact"
+  },
 
-     "Values":{
-        "title":"Who We Are ?",
-        "subTitle":"AdaGo Company"   ,
-        "text":"Adago Yapı İnşaat is a company specialized in villa construction in the Ermenek region of Antalya. We transform our customers' dreams into reality by providing high-quality, aesthetic, and functional living spaces. With our professional team, we complete our projects on time and within budget, prioritizing customer satisfaction. At Adago Yapı İnşaat, we aim to offer you the best with our reliable, innovative, and customer-focused service approach."  
-    },
+  "Home": {
+    "title": "AdaGo",
+    "description": "Located in the Ermenek region of Antalya, surrounded by peaceful and natural beauties, our company operates with the mission of creating prestigious and luxurious living spaces. We bring to life our villas, each of which is unique, with our expert team and carefully selected materials."
+  },
 
-    "Contact":{
-        "title":"Contact Us",
-        "subTitle":"Get in touch with us",
-        "name":"Name",
-        "email":"Email",
-        "subject":"Subject",
-        "message":"Message",
-        "send":"Send Message",
-        "phone":"Phone",
-        "phoneText":"+90 123 456 78 90",
-        "emailText":"info@adago.com",
-        "location":"Location",
-        "locationText":"Antalya, Turkey"
-    },
+  "Values": {
+    "title": "Who We Are ?",
+    "subTitle": "AdaGo Company",
+    "text": "Adago Yapı İnşaat is a company specialized in villa construction in the Ermenek region of Antalya. We transform our customers' dreams into reality by providing high-quality, aesthetic, and functional living spaces. With our professional team, we complete our projects on time and within budget, prioritizing customer satisfaction. At Adago Yapı İnşaat, we aim to offer you the best with our reliable, innovative, and customer-focused service approach."
+  },
 
-    "Information":{
-        "phone":"Phone",
-        "phoneText":"+90 123 456 78 90",
-        "email":"Email",
-        "emailText":"info@adago.com",
-        "location":"Location",
-        "locationText":"Antalya, Turkey"
-    }
+  "Contact": {
+    "title": "Contact Us",
+    "subTitle": "Get in touch with us",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "phoneText": "+90 123 456 78 90",
+    "emailText": "info@adago.com",
+    "location": "Location",
+    "locationText": "Antalya, Turkey"
+  },
+
+  "Information": {
+    "phone": "Phone",
+    "phoneText": "+90 123 456 78 90",
+    "email": "Email",
+    "emailText": "info@adago.com",
+    "location": "Location",
+    "locationText": "Antalya, Turkey"
+  },
+
+  "Room":{
+    "blueBedroom":"Blue Bedroom ",
+    "tvRoom":"TV room",
+    "wc":"bath",
+    "salon":"salon",
+    "bedroom":"bedroom",
+    "hall":"hall",
+    "room":"room",
+    "blueBedroomText":"Lorem ipsum dolor sit amet.",
+    "tvRoomText":"Lorem ipsum dolor sit amet.",
+    "wcText":"Lorem ipsum dolor sit amet.",
+    "salonText":"Lorem ipsum dolor sit amet.",
+    "bedroomText":"Lorem ipsum dolor sit amet.",
+    "hallText":"Lorem ipsum dolor sit amet.",
+    "roomText":"Lorem ipsum dolor sit amet."
+  },
+
+  "Icons":{
+    "sea":"4 km to the sea",
+    "pool":"Pool",
+    "smart":"Smart House",
+    "furnis":"Furnished house",
+    "elevator":"Elevator",
+    "garage":"Garage"
+  }
 }

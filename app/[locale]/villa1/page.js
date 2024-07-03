@@ -1,5 +1,10 @@
-import React from 'react'
-import RoomDetails from "@/app/[locale]/component/common/roomDetail"
+"use client";
+
+import React from "react";
+import RoomImages from "../component/common/roomImages";
+import RoomDetail from "../component/common/roomDetail";
+import Room from "../component/common/Room";
+import { useTranslations } from "next-intl";
 
 import salon1 from "@/public/images/villalar/salon1.jpeg";
 import salon2 from "@/public/images/villalar/salon2.jpeg";
@@ -61,29 +66,23 @@ import aynaoda3 from "@/public/images/villalar/aynaoda3.jpeg";
 import aynaoda4 from "@/public/images/villalar/aynaoda4.jpeg";
 import aynaoda5 from "@/public/images/villalar/aynaoda5.jpeg";
 
-const imagesBlueBedroom = [
-  aynaoda,
-  aynaoda2,
-  aynaoda3,
-  aynaoda4,
-  aynaoda5,
-];
+const imagesBlueBedroom = [aynaoda, aynaoda2, aynaoda3, aynaoda4, aynaoda5];
 
-const imagesHall ={
+const imagesHall = {
   hall,
   hall2,
   hall3,
   hall4,
-}
+};
 
-const imagesRoom={
+const imagesRoom = {
   room,
   room2,
   room3,
   room4,
-}
+};
 
-const iamgesWc={
+const imagesWc = {
   wc,
   wc2,
   wc3,
@@ -94,9 +93,9 @@ const iamgesWc={
   wc8,
   wc9,
   wc10,
-}
+};
 
-const imagesTvRoom={
+const imagesTvRoom = {
   tvRoom,
   tvRoom2,
   tvRoom3,
@@ -104,9 +103,9 @@ const imagesTvRoom={
   tvRoom5,
   tvRoom6,
   tvRoom7,
-}
+};
 
-const imagesSalon={
+const imagesSalon = {
   salon1,
   salon2,
   salon3,
@@ -116,9 +115,9 @@ const imagesSalon={
   salon7,
   salon8,
   salon9,
-}
+};
 
-const imagesBedroom={
+const imagesBedroom = {
   bedroom,
   bedroom2,
   bedroom3,
@@ -133,21 +132,31 @@ const imagesBedroom={
   bedroom12,
   bedroom13,
   bedroom14,
-  
-}
+};
 
-const images = Object.values(imagesBlueBedroom);
+const bluebedroom = Object.values(imagesBlueBedroom);
+const salon = Object.values(imagesSalon);
+const bedroomI = Object.values(imagesBedroom);
+const tvroom = Object.values(imagesTvRoom);
+const wcI = Object.values(imagesWc);
+const roomI = Object.values(imagesRoom);
+const hallI = Object.values(imagesHall);
 
 const page = () => {
-  const roomHeader = "Yatak Odası";
-  const roomText="Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.";
+
+  const t=useTranslations("Room");
+
   return (
-    <div className='flex flex-col gap-20'>
-        <RoomDetails images={images}/>
-      
-
+    <div className="flex flex-col">
+      <Room images={bluebedroom} roomName={t("blueBedroom")} roomDetail={t("blueBedroomText")}/>
+      <Room images={salon} roomName={t("salon")} roomDetail={t("salonText")}/>
+      <Room images={bedroomI} roomName={t("bedroom")} roomDetail={t("bedroomText")}/>
+      <Room images={tvroom} roomName={t("tvRoom")} roomDetail={t("tvRoomText")}/>
+      <Room images={roomI} roomName={t("room")} roomDetail={t("roomText")}/>
+      <Room images={hallI} roomName={t("hall")} roomDetail={t("hallText")}/>
+      <Room images={wcI} roomName={t("wc")} roomDetail={t("wcText")}/>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

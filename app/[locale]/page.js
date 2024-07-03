@@ -8,9 +8,6 @@ import HomeVilla from "./component/common/homeVilla.jsx";
 import ContactEmail from "./component/common/contactEmail.jsx";
 import RoomDetail from "./component/common/roomDetail.jsx";
 
-const r="hfghtghgfytj";
-const rt="asdsdfasdas";
-
 export default function Home() {
   return (
     <div className="flex flex-col gap-44">

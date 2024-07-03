@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex flex-row items-center w-full justify-center bg-darkSeaBlue font-hurme  h-5/6">
       
 
-        <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[5px] w-1/3">
+        <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[5px] w-1/3 text-start">
          
           <Link
             href="/villapage"
@@ -40,16 +40,16 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[10px] justify-end items-end w-1/3">
+        <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[10px] justify-end items-end w-1/3 text-end">
           <Link
             href="/"
-            className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
+            className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
             {t("institutional")}
           </Link>
           <Link
             href="/"
-            className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
+            className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
             {t("project")}
           </Link>

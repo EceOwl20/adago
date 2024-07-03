@@ -1,4 +1,12 @@
 {
+
+    "LocaleSwitcher": {
+    "label": "Изменение языка",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Неизвестный}}"
+    
+   
+  },
+
     "Navbar":{
     "institutional":"Институциональный",
     "project":"Проект",
@@ -39,5 +47,31 @@
         "emailText":"info@adago.com",
         "location":"Расположение",
         "locationText":"Antalya, Turkey"
-    }
+    },
+
+    "Room":{
+    "blueBedroom":"спальня синяя",
+    "tvRoom":"ТВ-передача",
+    "wc":"ванна",
+    "salon":"гостиная",
+    "bedroom":"Спальня",
+    "hall":"зал",
+    "room":"комната",
+    "blueBedroomText":"Lorem ipsum dolor sit amet.",
+    "tvRoomText":"Lorem ipsum dolor sit amet.",
+    "wcText":"Lorem ipsum dolor sit amet.",
+    "salonText":"Lorem ipsum dolor sit amet.",
+    "bedroomText":"Lorem ipsum dolor sit amet.",
+    "hallText":"Lorem ipsum dolor sit amet.",
+    "roomText":"Lorem ipsum dolor sit amet."
+  },
+
+  "Icons":{
+    "sea":"Расстояние до моря 4 км.",
+    "pool":"Бассейн",
+    "smart":"Умный Дом",
+    "furnis":"меблированный дом",
+    "elevator":"Поднимать",
+    "garage":"Гараж"
+  }
 }
