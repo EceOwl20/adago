@@ -29,17 +29,12 @@ const Navbar = () => {
           {t("institutional")}
         </Link>
         <Link
-          href="/"
+          href="/villapage"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("project")}
         </Link>
-        <Link
-          href="/villapage"
-          className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
-        >
-          {t("vilas")}
-        </Link>
+        
         <Link
           href="/contactpage"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
@@ -77,17 +72,12 @@ const Navbar = () => {
             {t("institutional")}
           </Link>
           <Link
-            href="/"
+            href="/villapage"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("project")}
           </Link>
-          <Link
-            href="/villapage"
-            className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
-          >
-            {t("vilas")}
-          </Link>
+          
           <Link
             href="/"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
