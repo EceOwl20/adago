@@ -7,6 +7,12 @@ import { GiHomeGarage } from "react-icons/gi";
 import React from 'react';
 import RoomImages from "./roomImages"
 import { useTranslations } from "next-intl";
+import { SiApacheparquet } from "react-icons/si";
+import { TbAirConditioning } from "react-icons/tb";
+import { TbAirConditioningDisabled } from "react-icons/tb";
+import { IoFunnelSharp } from "react-icons/io5";
+import { PiTreeStructureBold } from "react-icons/pi";
+
 
 const Room = ({roomName, roomDetail, images}) => {
     const t=useTranslations("Icons");

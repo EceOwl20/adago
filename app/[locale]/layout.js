@@ -5,6 +5,7 @@ import Footer from "./component/common/footer.jsx"
 import { defaultLocale, locales } from "@/config";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import Whatsapp from "../[locale]/component/common/whatsapp";
 
 
 const inter = Inter({ subsets: ["latin"] });

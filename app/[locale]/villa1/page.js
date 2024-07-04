@@ -27,15 +27,12 @@ import bedroom7 from "@/public/images/villalar/yatakodası7.jpeg";
 import bedroom8 from "@/public/images/villalar/yatakodası8.jpeg";
 import bedroom9 from "@/public/images/villalar/yatakodası9.jpeg";
 import bedroom10 from "@/public/images/villalar/yatakodası10.jpeg";
-import bedroom11 from "@/public/images/villalar/yatakodası11.jpeg";
 import bedroom12 from "@/public/images/villalar/yatakodası12.jpeg";
 import bedroom13 from "@/public/images/villalar/yatakodası13.jpeg";
-import bedroom14 from "@/public/images/villalar/yatakodası14.jpeg";
 
 import tvRoom from "@/public/images/villalar/tvoda1.jpeg";
 import tvRoom2 from "@/public/images/villalar/tvoda2.jpeg";
 import tvRoom3 from "@/public/images/villalar/tvoda3.jpeg";
-import tvRoom4 from "@/public/images/villalar/tvoda4.jpeg";
 import tvRoom5 from "@/public/images/villalar/tvoda5.jpeg";
 import tvRoom6 from "@/public/images/villalar/tvoda6.jpeg";
 import tvRoom7 from "@/public/images/villalar/tvoda7.jpeg";
@@ -47,7 +44,6 @@ import wc4 from "@/public/images/villalar/tulavet4.jpeg";
 import wc5 from "@/public/images/villalar/tulavet5.jpeg";
 import wc6 from "@/public/images/villalar/tulavet6.jpeg";
 import wc7 from "@/public/images/villalar/tulavet7.jpeg";
-import wc8 from "@/public/images/villalar/tulavet8.jpeg";
 import wc9 from "@/public/images/villalar/tulavet9.jpeg";
 import wc10 from "@/public/images/villalar/tulavet10.jpeg";
 
@@ -91,7 +87,6 @@ const imagesWc = {
   wc5,
   wc6,
   wc7,
-  wc8,
   wc9,
   wc10,
 };
@@ -100,7 +95,6 @@ const imagesTvRoom = {
   tvRoom,
   tvRoom2,
   tvRoom3,
-  tvRoom4,
   tvRoom5,
   tvRoom6,
   tvRoom7,
@@ -129,10 +123,8 @@ const imagesBedroom = {
   bedroom8,
   bedroom9,
   bedroom10,
-  bedroom11,
   bedroom12,
   bedroom13,
-  bedroom14,
 };
 
 const bluebedroom = Object.values(imagesBlueBedroom);
