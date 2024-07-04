@@ -5,6 +5,7 @@ import RoomImages from "../component/common/roomImages";
 import RoomDetail from "../component/common/roomDetail";
 import Room from "../component/common/Room";
 import { useTranslations } from "next-intl";
+import Menubar from "../component/common/menubar";
 
 import salon1 from "@/public/images/villalar/salon1.jpeg";
 import salon2 from "@/public/images/villalar/salon2.jpeg";
@@ -148,6 +149,7 @@ const page = () => {
 
   return (
     <div className="flex flex-col">
+      <Menubar/>
       <Room images={bluebedroom} roomName={t("blueBedroom")} roomDetail={t("blueBedroomText")}/>
       <Room images={salon} roomName={t("salon")} roomDetail={t("salonText")}/>
       <Room images={bedroomI} roomName={t("bedroom")} roomDetail={t("bedroomText")}/>

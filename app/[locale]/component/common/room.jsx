@@ -12,7 +12,7 @@ const Room = ({roomName, roomDetail, images}) => {
     const t=useTranslations("Icons");
 
   return (
-    <div className="flex mt-32 w-full justify-center items-center">
+    <div className="flex mt-40 w-full justify-center items-center">
       <div className="flex flex-col-reverse lg:flex-row font-hurme w-4/5 justify-center items-center xl:gap-4">
         <RoomImages images={images}/>
         <div className="flex flex-col gap-[10px] lg:gap-[20px] items-start justify-start w-full">
