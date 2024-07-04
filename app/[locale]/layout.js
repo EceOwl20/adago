@@ -30,6 +30,7 @@ export default function RootLayout({ children, language })  {
       <body className={inter.className}>
       <NextIntlClientProvider messages={messages}>
         <Navbar/>
+        <Whatsapp/>
         {children}
         <Footer/>
         </NextIntlClientProvider>

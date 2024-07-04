@@ -42,6 +42,7 @@ const Navbar = () => {
         >
           {t("contact")}
         </Link>
+        <span className=" text-white font-light font-hurme text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-lg">+90 123 456 78 90</span>
         <div className=" justify-center items-center md:text-white md:bg-darkSeaBlue text-base lg:text-lg xl:text-xl text-center cursor-pointer ">
             <LangSwitcher />
           </div>
