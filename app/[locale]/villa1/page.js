@@ -63,7 +63,7 @@ import aynaoda3 from "@/public/images/villalar/aynaoda3.jpeg";
 import aynaoda4 from "@/public/images/villalar/aynaoda4.jpeg";
 import aynaoda5 from "@/public/images/villalar/aynaoda5.jpeg";
 
-const imagesBlueBedroom = [aynaoda, aynaoda2, aynaoda3, aynaoda4, aynaoda5];
+const imagesBlueBedroom = [aynaoda, aynaoda2, aynaoda3, aynaoda4, aynaoda5, aynaoda];
 
 const imagesHall = {
   hall,
