@@ -1,12 +1,11 @@
 import React from 'react'
-import Villalar from '../component/common/villalar'
-import Villatipleri from '../component/common/villatipleri'
+import Project from "@/app/[locale]//component/common/project"
+
 
 const page = () => {
   return (
     <div>
-         <Villalar/>
-         <Villatipleri/>
+        <Project/>
     </div>
   )
 }

@@ -7,6 +7,7 @@ import LogoWhite from "@/public/images/logoWhite.png";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "../../../../LangSwitcher";
+import Logo1 from "@/public/images/logo1.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,9 +18,9 @@ const Navbar = () => {
   const t=useTranslations("Navbar");
 
   return (
-    <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-[9999]">
-      <div className="w-1/2 md:w-1/3 lg:w-1/6 ">
-        <Link href="/"><Image src={LogoWhite} alt="logo" /></Link>
+    <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky p-4 z-[9999]">
+      <div className="w-3/12 md:w-2/12 lg:w-1/12 ">
+        <Link href="/"><Image src={Logo1} alt="logo" /></Link>
       </div>
       <div className="hidden md:flex w-4/5 md:justify-end justify-end items-center gap-10">
         <Link
