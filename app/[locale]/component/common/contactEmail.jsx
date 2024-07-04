@@ -45,7 +45,7 @@ const contactEmail = () => {
           <LuPhone size={24} />
           <div className="flex flex-col gap-[5px]">
             <text className="text-lg font-semibold">{t("phone")}</text>
-            <span className="text-base font-light">+{t("phoneText")}</span>
+            <span className="text-base font-light">{t("phoneText")}</span>
           </div>
         </div>
         <div className="flex gap-[20px] items-center justify-center">

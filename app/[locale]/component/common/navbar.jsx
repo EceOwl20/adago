@@ -17,7 +17,7 @@ const Navbar = () => {
   const t=useTranslations("Navbar");
 
   return (
-    <div className="flex w-full justify-between items-center bg-darkSeaBlue fixed p-4 z-[9999]">
+    <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky p-4 z-[9999]">
       <div className="w-1/2 md:w-1/3 lg:w-1/6 ">
         <Link href="/"><Image src={LogoWhite} alt="logo" /></Link>
       </div>
@@ -41,6 +41,7 @@ const Navbar = () => {
         >
           {t("contact")}
         </Link>
+        <span className="text-white font-light font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange">+90 123 456 78 90</span>
         <div className=" justify-center items-center md:text-white md:bg-darkSeaBlue text-base lg:text-lg xl:text-xl text-center cursor-pointer ">
             <LangSwitcher />
           </div>

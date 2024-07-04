@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import business from "@/public/images/business.jpeg";
 import { useTranslations } from "next-intl";
 import villaImage from "@/public/images/villalar/villa3.jpeg"
 
