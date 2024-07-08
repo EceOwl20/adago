@@ -18,7 +18,7 @@ const Navbar = () => {
   const t=useTranslations("Navbar");
 
   return (
-    <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky p-4 z-[9999]">
+    <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky top-0 p-4 z-[9999]">
       <div className="w-3/12 md:w-2/12 lg:w-1/12 ">
         <Link href="/"><Image src={Logo1} alt="logo" /></Link>
       </div>
