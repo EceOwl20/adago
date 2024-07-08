@@ -20,7 +20,7 @@ const project = () => {
               iletişime geçin!
             </p>
             <a
-              href="https://www.example.com"
+              href="/project/rooms"
               className="flex bg-flameOrange rounded-md px-10 py-3"
             >
               <p className="flex text-white font-semibold font-sans text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-sm">

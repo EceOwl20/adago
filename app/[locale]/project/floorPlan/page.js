@@ -1,5 +1,5 @@
 import React from 'react';
-import FloorPlan from '../component/common/floorPlan';
+import FloorPlan from '../../component/common/floorPlan';
 
 const page = () => {
   return (
