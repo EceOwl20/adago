@@ -21,8 +21,8 @@ const project = () => {
               iletişime geçin!
             </p>
 
-            <a
-              href="/project/rooms"
+            <Link
+              href="/project/concept"
 
               className="flex bg-flameOrange rounded-md px-10 py-3"
             >

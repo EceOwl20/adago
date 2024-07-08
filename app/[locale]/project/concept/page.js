@@ -1,5 +1,5 @@
 import React from 'react'
-import Concept from '../component/common/concept'
+import Concept from '../../component/common/concept'
 
 export const page = () => {
   return (
