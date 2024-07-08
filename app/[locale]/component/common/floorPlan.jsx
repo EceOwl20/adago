@@ -2,7 +2,7 @@
 import React, {useState} from "react";
 import photo from "@/public/images/villalar/villa6.jpeg";
 import photo2 from "@/public/images/villalar/villa5.jpeg";
-import photo3 from "@/public/images/villalar/villa4.jpeg";
+import photo3 from "@/public/images/villalar/villa3.jpeg";
 import Image from 'next/image'
 
 const floorPlan = () => {

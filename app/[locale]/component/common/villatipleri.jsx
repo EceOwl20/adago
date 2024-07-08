@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Villa1 from "@/public/images/villalar/villa1.jpeg";
+import rooms from "@/public/images/villalar/rooms.jpeg";
 import Villa2 from "@/public/images/villalar/villa2.jpeg";
 import Villa3 from "@/public/images/villalar/villa3.jpeg";
 import Villa4 from "@/public/images/villalar/villa4.jpeg";
@@ -19,11 +19,11 @@ const Villatipleri = () => {
         </div>
       </div>
       <div className="lg:grid lg:grid-cols-4 w-full gap-4 flex flex-col lg:flex-row">
-        <Link href="/villa1" >
+        <Link href="/rooms" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
-              backgroundImage: `url(${Villa1.src})`,
+              backgroundImage: `url(${rooms.src})`,
               height: "45vh",
               width: "100%",
             }}
@@ -37,7 +37,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa1" >
+        <Link href="/rooms" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center  "
             style={{
@@ -55,7 +55,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa1" >
+        <Link href="/rooms" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
@@ -73,7 +73,7 @@ const Villatipleri = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/villa1" >
+        <Link href="/rooms" >
           <div
             className="relative flex flex-col justify-center items-center bg-cover bg-center "
             style={{
