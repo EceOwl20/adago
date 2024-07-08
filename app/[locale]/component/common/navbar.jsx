@@ -30,7 +30,7 @@ const Navbar = () => {
           {t("institutional")}
         </Link>
         <Link
-          href="/villapage"
+          href="/project"
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("project")}
