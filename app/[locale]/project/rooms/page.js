@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import Room from "../../component/common/Room";
 import { useTranslations } from "next-intl";
