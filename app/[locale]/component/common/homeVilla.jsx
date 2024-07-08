@@ -2,7 +2,7 @@ import React from 'react';
 import villa from "@/public/images/villalar/villa2.jpeg";
 import { useTranslations } from "next-intl";
 
-const homeVilla = () => {
+const HomeVilla = () => {
   const t=useTranslations("Home");
 
   return (
@@ -20,4 +20,4 @@ const homeVilla = () => {
   )
 }
 
-export default homeVilla
+export default HomeVilla

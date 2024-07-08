@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
-import Navbar from "./component/common/navbar"
+import Navbar from "./component/common/Navbar"
 import "../../app/globals.css"
-import Footer from "./component/common/footer.jsx"
+import Footer from "./component/common/Footer.jsx"
 import { defaultLocale, locales } from "@/config";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import Whatsapp from "../[locale]/component/common/whatsapp";
+import Whatsapp from "./component/common/Whatsapp";
 
 
 const inter = Inter({ subsets: ["latin"] });

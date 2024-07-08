@@ -1,5 +1,5 @@
 import React from 'react';
-import LayoutPlan from '../../component/common/layoutPlan';
+import LayoutPlan from '../../component/common/LayoutPlan';
 
 const page = () => {
   return (

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link"
 import Villa3 from "@/public/images/villalar/villa3.jpeg";
 
-const project = () => {
+const Project = () => {
   return (
     <div className="flex flex-col lg:flex-row lg:h-screen p-3">
       <div className="flex justify-center">
@@ -91,4 +91,4 @@ const project = () => {
   );
 };
 
-export default project;
+export default Project;

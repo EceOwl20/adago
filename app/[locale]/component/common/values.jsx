@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import villaImage from "@/public/images/villalar/villa3.jpeg"
 
-const values = () => {
+const Values = () => {
 
   const t=useTranslations("Values");
 
@@ -29,4 +29,4 @@ const values = () => {
   );
 };
 
-export default values;
+export default Values;

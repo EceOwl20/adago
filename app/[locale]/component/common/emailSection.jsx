@@ -1,6 +1,6 @@
 import React from "react";
 
-const emailSection = () => {
+const EmailSection = () => {
   return (
 
     <div className='flex  justify-center '>
@@ -37,4 +37,4 @@ const emailSection = () => {
   );
 };
 
-export default emailSection;
+export default EmailSection;

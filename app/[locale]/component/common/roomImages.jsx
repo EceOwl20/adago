@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-const Room = ({images}) => {
+const RoomImages = ({images}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,4 +68,4 @@ const Room = ({images}) => {
   );
 };
 
-export default Room;
+export default RoomImages;

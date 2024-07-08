@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from "@/app/[locale]//component/common/project"
+import Project from "@/app/[locale]/component/common/Project"
 
 
 const page = () => {

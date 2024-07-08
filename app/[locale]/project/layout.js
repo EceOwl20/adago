@@ -1,10 +1,10 @@
-import Navbar from "../component/common/navbar";
+import Navbar from "../component/common/Navbar";
 import "../../../app/globals.css";
-import Footer from "../component/common/footer";
+import Footer from "../component/common/Footer";
 import { defaultLocale, locales } from "@/config";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import Menubar from "../component/common/menubar";
+import Menubar from "../component/common/Menubar";
 
 // export async function getServerSideProps(context) {
 //   // Get the language from the request headers

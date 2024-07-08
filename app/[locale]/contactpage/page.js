@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactEmail from '../component/common/contactEmail'
+import ContactEmail from '../component/common/ContactEmail'
 import Villa3 from "@/public/images/villalar/villa3.jpeg"
 import Image from 'next/image'
 

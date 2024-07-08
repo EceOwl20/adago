@@ -1,9 +1,9 @@
 import React from "react";
 import photo from "@/public/images/villalar/villa4.jpeg";
 
-const layoutPlan = () => {
+const LayoutPlan = () => {
   return (
-    <div className="flex h-screen w-screen bg-white my-10 lg:my-20 justify-center">
+    <div className="flex lg:h-screen h-screen w-screen bg-white my-10 lg:my-20 justify-center">
       <div className="flex flex-col items-center ">
         <div className="flex flex-col gap-[10px] text-center pb-8 lg:pb-20 px-8 lg:px-20 text-royalBlue font-hurme ">
           <div className="flex gap-2 justify-center items-center">
@@ -29,4 +29,4 @@ const layoutPlan = () => {
   );
 };
 
-export default layoutPlan;
+export default LayoutPlan;

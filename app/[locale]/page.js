@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Contactus from "./component/common/contactus.jsx"
-import EmailSection from "./component/common/emailSection.jsx"
-import Values from "./component/common/values.jsx";
+import Contactus from "./component/common/Contactus.jsx"
+import EmailSection from "./component/common/EmailSection.jsx"
+import Values from "./component/common/Values.jsx";
 import { defaultLocale, locales } from "@/config";
 
-import HomeVilla from "./component/common/homeVilla.jsx";
-import ContactEmail from "./component/common/contactEmail.jsx";
-import RoomDetail from "./component/common/roomDetail.jsx";
+import HomeVilla from "./component/common/HomeVilla.jsx";
+import ContactEmail from "./component/common/ContactEmail.jsx";
+import RoomDetail from "./component/common/RoomDetail.jsx";
 
 export default function Home() {
   return (

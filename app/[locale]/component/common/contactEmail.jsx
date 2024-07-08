@@ -4,7 +4,7 @@ import { LuMail } from "react-icons/lu";
 import { LuMapPin } from "react-icons/lu";
 import { useTranslations } from "next-intl";
 
-const contactEmail = () => {
+const ContactEmail = () => {
   const t=useTranslations("Contact");
   return (
     <div id="contact"  className="flex  mb-[140px] justify-center mt-[100px] lg:mt-[200px]">
@@ -70,4 +70,4 @@ const contactEmail = () => {
   );
 };
 
-export default contactEmail;
+export default ContactEmail;
