@@ -74,14 +74,14 @@ const Navbar = () => {
             {t("institutional")}
           </Link>
           <Link
-            href="/villapage"
+            href="/project"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("project")}
           </Link>
           
           <Link
-            href="/"
+            href="/contactpage"
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("contact")}

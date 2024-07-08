@@ -1,9 +1,7 @@
 "use client";
 
 import React from "react";
-import RoomImages from "../../component/common/roomImages";
-import RoomDetail from "../../component/common/roomDetail";
-import Room from "../../component/common/Room";
+import Room from "../../component/common/room";
 import { useTranslations } from "next-intl";
 
 import salon1 from "@/public/images/villalar/salon1.jpeg";
