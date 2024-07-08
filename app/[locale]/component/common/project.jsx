@@ -19,9 +19,14 @@ const project = () => {
               ailenize huzurlu bir yaşam vadediyor. Detaylar için hemen
               iletişime geçin!
             </p>
-            <button className="flex bg-flameOrange rounded-md px-10 py-3">
-                <p className="flex text-white font-semibold font-sans text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-sm">Daha fazlasi</p>
-            </button>
+            <a
+              href="https://www.example.com"
+              className="flex bg-flameOrange rounded-md px-10 py-3"
+            >
+              <p className="flex text-white font-semibold font-sans text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-sm">
+                Daha fazlası
+              </p>
+            </a>
           </div>
         </div>
       </div>
