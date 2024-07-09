@@ -24,7 +24,7 @@ const Concept = () => {
             güvenlik hizmeti ile Adago, size hem konforlu hem de güvenli bir
             yaşam sunar. Merkezi konumu sayesinde her yere kolay ulaşım imkanı
             sağlayan Adago, aynı zamanda yatırım değeri yüksek bir projedir.
-            Adago'da hayat, hayal ettiğinizden daha güzel.
+            Adago&apos;da hayat, hayal ettiğinizden daha güzel.
           </p>
         </div>
         <div className="flex-col  w-6/7 md:w-9/12 md:flex xl:w-6/12 xl:gap-10 justify-center items-center mt-10 bg-black bg-opacity-50 backdrop-blur-md p-6 rounded-lg">
@@ -49,7 +49,7 @@ const Concept = () => {
               sosyal alanlar ve 7/24 güvenlik ile Adago, size hem rahat hem de
               güvenli bir yaşam sunuyor. Merkezi konumu sayesinde ulaşım
               kolaylığı sağlayan Adago, aynı zamanda yüksek yatırım
-              potansiyeline sahip. Adago'da yaşam, beklentilerinizin ötesinde
+              potansiyeline sahip. Adago&apos;da yaşam, beklentilerinizin ötesinde
               bir deneyim sunar.
             </p>
           </div>

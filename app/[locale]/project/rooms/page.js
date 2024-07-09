@@ -132,7 +132,7 @@ const wcI = Object.values(imagesWc);
 const roomI = Object.values(imagesRoom);
 const hallI = Object.values(imagesHall);
 
-const page = () => {
+const Page = () => {
   const t=useTranslations("Room");
 
   return (
@@ -148,4 +148,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -30,7 +30,7 @@ const FloorPlan = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row-reverse items-center gap-10">
-        <div className="flex-3 mr-5 h-full w-2/3">
+        <div className="flex-3 h-full w-full lg:w-2/3 ">
           <Image src={currentImage} alt="Selected"  layout="responsive" />
         </div>
         <div className="flex-1 flex lg:flex-col gap-4 items-center justify-center">
