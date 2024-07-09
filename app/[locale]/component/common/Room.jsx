@@ -12,6 +12,7 @@ import { TbAirConditioning } from "react-icons/tb";
 import { TbAirConditioningDisabled } from "react-icons/tb";
 import { IoFunnelSharp } from "react-icons/io5";
 import { PiTreeStructureBold } from "react-icons/pi";
+import { GiDoor } from "react-icons/gi";
 
 
 const Room = ({roomName, roomDetail, images}) => {
@@ -19,7 +20,7 @@ const Room = ({roomName, roomDetail, images}) => {
 
   return (
     <div className="flex mt-6 lg:mt-24 w-full justify-center items-center">
-      <div className="flex flex-col-reverse lg:flex-row font-hurme w-4/5 justify-center items-center xl:gap-4">
+      <div className="flex flex-col-reverse lg:flex-row font-hurme w-10/12 justify-center items-center xl:gap-4">
         <RoomImages images={images}/>
         <div className="flex flex-col gap-[10px] lg:gap-[20px] items-center justify-center text-center w-full">
         <span className="text-royalBlue text-base md:text-xl lg:text-2xl xl:text-3xl font-semibold"> {roomName}</span>
@@ -33,6 +34,10 @@ const Room = ({roomName, roomDetail, images}) => {
                 <div className="flex gap-2 justify-center items-center"><RiArmchairFill size={20}/><text className="text-xs md:text-sm xl:text-base">{t("furnis")}</text></div>
                 <div className="flex gap-2 justify-center items-center"><PiElevatorFill size={20}/><text className="text-xs md:text-sm xl:text-base">{t("elevator")}</text></div>
                 <div className="flex gap-2 justify-center items-center"><GiHomeGarage size={20}/><text className="text-xs md:text-sm xl:text-base">{t("garage")}</text></div>
+                <div className="flex gap-2 justify-center items-center"><SiApacheparquet size={30}/><text className="text-xs md:text-sm xl:text-base">Şerifoğlu Lamine Parke (meşe)</text></div>
+                <div className="flex gap-2 justify-center items-center"><IoFunnelSharp size={25}/><text className="text-xs md:text-sm xl:text-base">Franke Ankastraler</text></div>
+                <div className="flex gap-2 justify-center items-center"><TbAirConditioning size={35}/><text className="text-xs md:text-sm xl:text-base">MITSUBISHI multi sistem klima</text></div>
+                <div className="flex gap-2 justify-center items-center"><GiDoor size={35}/><text className="text-xs md:text-sm xl:text-base">Lamine Kapılar (GREEN DOOR)</text></div>
             
         </div>
         </div>
