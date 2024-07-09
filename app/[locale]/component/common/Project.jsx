@@ -5,13 +5,16 @@ import Villa3 from "@/public/images/villalar/villa3.jpeg";
 
 const Project = () => {
   return (
-    <div className="flex flex-col lg:grid lg:grid-cols-2 lg:h-screen my-8 mx-3 gap-10">
+    <div className="flex flex-col lg:grid lg:grid-cols-1 lg:h-screen my-8 mx-3 gap-10">
       <div className="flex justify-center">
-        <div className="flex flex-col lg:flex-row justify-center items-center w-3/4 lg:w-full bg-darkSeaBlue h-1/2 p-3 gap-6">
-          <div className="flex">
-            <Image src={Villa3} />
+        <div className="flex flex-col lg:flex-row justify-center items-center w-3/4 lg:w-full bg-darkSeaBlue h-1/2 mt-7 p-3 gap-20">
+          <div className="flex lg:w-6/12">
+            <Image src={Villa3}
+                    layout="responsive"
+                    width={500}
+                    height={300} />
           </div>
-          <div className="flex flex-col lg:flex-row items-center gap-10 justify-center">
+          <div className="flex flex-col lg:w-3/12 lg:flex-row items-center gap-10 justify-center">
             <div className="flex flex-col gap-2 lg:gap-6"><h2 className=" flex text-white font-semibold font-hurme text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-xl">
               Yonca Homes
             </h2>

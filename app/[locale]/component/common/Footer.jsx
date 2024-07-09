@@ -10,18 +10,13 @@ const Footer = () => {
   const t=useTranslations("Navbar");
 
   return (
-    <div className="flex flex-col bg-darkSeaBlue h-[150px] w-full">
-      <div className="flex flex-row items-center w-full justify-center bg-darkSeaBlue font-hurme  h-5/6">
+    <div className="flex flex-col bg-darkSeaBlue h-[150px] w-full ">
+      <div className="flex flex-row items-center w-full justify-center bg-darkSeaBlue font-hurme z-[9999] h-5/6">
       
 
         <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[5px] w-1/3 text-start">
          
-          <Link
-            href="/villapage"
-            className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
-          >
-            {t("vilas")}
-          </Link>
+        
           <Link
             href="/contactpage"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
