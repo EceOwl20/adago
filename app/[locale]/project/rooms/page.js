@@ -60,6 +60,12 @@ import aynaoda3 from "@/public/images/villalar/aynaoda3.jpeg";
 import aynaoda4 from "@/public/images/villalar/aynaoda4.jpeg";
 import aynaoda5 from "@/public/images/villalar/aynaoda5.jpeg";
 
+async function getStrapiData(url) {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
+}
+
 const imagesBlueBedroom = [aynaoda, aynaoda2, aynaoda3, aynaoda4, aynaoda5, aynaoda];
 
 const imagesHall = {
@@ -132,7 +138,7 @@ const wcI = Object.values(imagesWc);
 const roomI = Object.values(imagesRoom);
 const hallI = Object.values(imagesHall);
 
-const Page = () => {
+export default async function page (){
   const t=useTranslations("Room");
 
   return (
@@ -148,4 +154,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+
