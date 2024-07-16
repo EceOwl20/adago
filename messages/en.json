@@ -83,5 +83,33 @@
     "subText2":"villa 2 text",
     "subText3":"villa 3 text",
     "subText4":"villa 4 text"
-  }
+  },
+  "Menubar":{
+    "concept":"Concept",
+    "rooms":"Rooms",
+    "floor":"Floor Plan",
+    "layout":"Layout Plan"
+  },
+  "Floor":{
+    "header":"Floor Plan",
+    "text":"This luxury villa offers large and spacious spaces with its three-storey structure. On the ground floor there is a living room, American kitchen, guest WC and terrace. There are three en-suite bedrooms and a balcony on the first floor, and two en-suite bedrooms and a roof terrace on the second floor. The villa is equipped with features such as a private pool, indoor parking, smart home system, underfloor heating and central air conditioning. Provides sound and heat insulation. It is 4 km from the sea, 4 km from the airport and 3 km from the city centre.",
+    "floor1":"1st floor",
+    "floor2":"2nd floor",
+    "floor3":"3rd floor"
+  },
+  "Layout":{
+    "header":"Layout Plan",
+    "text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem tenetur iure asperiores beatae explicabo nostrum dignissimos ipsam deleniti magnam est."
+  },
+  "Concept":{
+    "header":"Concept",
+    "text":"Adago is a prestigious housing project located in the heart of the city and meets all the needs of modern life. With its large and spacious living spaces, smart home systems, green social areas and 24/7 security service, Adago offers you a comfortable and safe life. Adago, which provides easy access to everywhere thanks to its central location, is also a project with high investment value. Life in Adago is more beautiful than you imagine.",
+    "header2":"Adago: Modern and Comfortable Living Spaces",
+    "text2":"Adago is an elite housing project located in the very center of the city and meeting all the needs of modern life. With spacious and spacious flats, high-tech smart home systems, lush social areas and 24/7 security, Adago offers you a comfortable and safe life. Adago, which provides ease of transportation thanks to its central location, also has high investment potential. Life at Adago offers an experience beyond your expectations."
+  },
+  "Project":{
+ "header":"Yonca Homes",
+ "text":"This special villa, which offers luxury and comfort together, promises a peaceful life for you and your family. Contact us now for details!",
+ "button":"More"
+ }
 }
