@@ -1,7 +1,13 @@
 import React from 'react';
 import FloorPlan from '../../component/common/FloorPlan';
 
-const page = () => {
+async function getStrapiData(url) {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
+}
+
+export default async function page (){
   return (
     <div className='flex'>
       <FloorPlan/>
@@ -9,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+

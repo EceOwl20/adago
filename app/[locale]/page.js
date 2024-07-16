@@ -8,7 +8,13 @@ import HomeVilla from "./component/common/HomeVilla.jsx";
 import ContactEmail from "./component/common/ContactEmail.jsx";
 import RoomDetail from "./component/common/RoomDetail.jsx";
 
-export default function Home() {
+async function getStrapiData(url) {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
+}
+
+export default async function Home() {
   return (
     <div className="flex flex-col gap-72">
       <HomeVilla/>
