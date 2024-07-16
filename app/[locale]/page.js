@@ -10,7 +10,7 @@ import RoomDetail from "./component/common/RoomDetail.jsx";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-44">
+    <div className="flex flex-col gap-72">
       <HomeVilla/>
       <Values/>
 

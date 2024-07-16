@@ -21,12 +21,12 @@ const Whatsapp = () => {
       <SiWhatsapp size={40} className='text-royalBlue'/>
       </button>
     </div>
-    <div className='hidden lg:flex bottom-0 h-[60px] w-[60px] inset-0 items-center justify-center shadow rounded-md z-[90] bg-slate-200 '>
+    <div className='hidden md:flex bottom-0 h-[60px] w-[60px] inset-0 items-center justify-center shadow rounded-md z-[90] bg-slate-200 '>
       <a href={whatsappUrl} className='flex'>
       <SiWhatsapp size={40} className='text-royalBlue'/>
       </a>
     </div>
-    <div className='flex lg:hidden bottom-2 right-5 h-[60px] w-[60px] inset-0 items-center justify-center shadow rounded-md z-[90] bg-slate-200 '>
+    <div className='flex md:hidden bottom-2 right-5 h-[60px] w-[60px] inset-0 items-center justify-center shadow rounded-md z-[90] bg-slate-200 '>
       <a className='flex' href="tel:+90 532 562 77 77">
       <FaPhone size={40} className='text-royalBlue'/>
       </a>

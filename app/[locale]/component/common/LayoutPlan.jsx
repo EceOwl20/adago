@@ -1,8 +1,10 @@
 import React from "react";
 import photo from "@/public/images/villalar/villa2.jpeg";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const LayoutPlan = () => {
+  const t=useTranslations("Layout");
   return (
     <div className="flex h-screen w-screen bg-white my-10 lg:my-20 justify-center">
       <div className="flex flex-col items-center ">
@@ -10,15 +12,13 @@ const LayoutPlan = () => {
           <div className="flex gap-2 justify-center items-center">
             <div className="flex h-[4px] w-[4px] lg:h-[8px] lg:w-[8px] rounded-full bg-darkSeaBlue"></div>
             <span className="font-semibold text-lg lg:text-3xl">
-              Vaziyet Planı
+            {t("header")}
             </span>
             <div className="flex h-[4px] w-[4px] lg:h-[8px] lg:w-[8px] rounded-full bg-darkSeaBlue"></div>
           </div>
           <div className="flex bg-darkSeaBlue h-[1px]"></div>
           <text className="font-light text-sm lg:text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            tenetur iure asperiores beatae explicabo nostrum dignissimos ipsam
-            deleniti magnam est.
+          {t("text")}
           </text>
         </div>
         <div className="flex flex-col items-center">

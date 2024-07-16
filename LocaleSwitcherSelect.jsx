@@ -33,7 +33,7 @@ export default function LocaleSwitcherSelect({
         <MdOutlineArrowDropDown />
       </button>
       {isOpen && (
-        <div className="absolute z-50 mt-1 rounded border border-gray-200 bg-white shadow-lg">
+        <div className="absolute z-50 mt-1 rounded shadow-lg">
           <ul className="py-1">
             {React.Children.map(children, (child) => {
               if (child.props.value === defaultValue) {

@@ -2,8 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link"
 import Villa3 from "@/public/images/villalar/villa3.jpeg";
+import { useTranslations } from "next-intl";
 
 const Project = () => {
+  const t=useTranslations("Project");
   return (
     <div className="flex flex-col lg:grid lg:grid-cols-1 lg:h-screen my-8 mx-3 gap-10">
       <div className="flex justify-center">
@@ -16,12 +18,10 @@ const Project = () => {
           </div>
           <div className="flex flex-col lg:w-3/12 lg:flex-row items-center gap-10 justify-center">
             <div className="flex flex-col gap-2 lg:gap-6"><h2 className=" flex text-white font-semibold font-hurme text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-xl">
-              Yonca Homes
+            {t("header")}
             </h2>
             <p className="flex text-white font-semibold font-sans text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-sm">
-              Lüks ve konforun bir arada sunulduğu bu özel villa, size ve
-              ailenize huzurlu bir yaşam vadediyor. Detaylar için hemen
-              iletişime geçin!
+            {t("text")}
             </p></div>
 
             <Link
@@ -30,7 +30,7 @@ const Project = () => {
               className="flex bg-flameOrange rounded-md px-6 py-3"
             >
               <p className="flex text-white whitespace-nowrap font-semibold font-sans text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-sm">
-                Daha fazlası
+              {t("button")}
               </p>
             </Link>
           </div>
