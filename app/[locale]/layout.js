@@ -10,6 +10,16 @@ import Whatsapp from "./component/common/Whatsapp";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export async function getGlobalPageData(){
+  const url = new URL("/api/global",baseUrl);
+
+  url.search = qs.stringify({
+    populate:[
+      "header.logoText",
+    ]
+  })
+}
+
 export async function getServerSideProps(context) {
   // Get the language from the request headers
   const language = context.req.headers['accept-language'];
