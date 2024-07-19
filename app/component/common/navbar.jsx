@@ -5,7 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import LogoWhite from "@/public/images/logoWhite.png";
 
-const Navbar = () => {
+const Navbar = ({data}) => {
+  const { phoneText, contact } = data;
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -22,13 +24,13 @@ const Navbar = () => {
           href="/"
           className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          KURUMSAL
+          {contact.text}
         </Link>
         <Link
           href="/"
           className=" text-black font-semibold font-hurme text-sm md:text-base lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
-          PROJELER
+          {phoneText.text}
         </Link>
         <Link
           href="/"
