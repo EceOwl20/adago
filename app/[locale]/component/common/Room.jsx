@@ -2,14 +2,12 @@
 import { MdOutlinePool } from "react-icons/md";
 import { FaSwimmingPool } from "react-icons/fa";
 import { RiHome3Fill,RiArmchairFill } from "react-icons/ri";
-import { PiElevatorFill } from "react-icons/pi";
 import { GiHomeGarage } from "react-icons/gi";
 import React from 'react';
 import RoomImages from "./RoomImages"
 import { useTranslations } from "next-intl";
 import { SiApacheparquet } from "react-icons/si";
 import { TbAirConditioning } from "react-icons/tb";
-import { TbAirConditioningDisabled } from "react-icons/tb";
 import { IoFunnelSharp } from "react-icons/io5";
 import { PiTreeStructureBold } from "react-icons/pi";
 import { GiDoor } from "react-icons/gi";
@@ -31,13 +29,11 @@ const Room = ({roomName, roomDetail, images}) => {
             <div className="flex justify-center items-center gap-2 "><MdOutlinePool size={20}/><text className="text-xs md:text-sm xl:text-base">{t("sea")}</text></div>
                 <div className="flex gap-2 justify-center items-center"><FaSwimmingPool size={20}/><text className="text-xs md:text-sm xl:text-base">{t("pool")}</text></div>
                 <div className="flex gap-2 justify-center items-center"><RiHome3Fill size={20}/><text className="text-xs md:text-sm xl:text-base">{t("smart")}</text></div>
-                <div className="flex gap-2 justify-center items-center"><RiArmchairFill size={20}/><text className="text-xs md:text-sm xl:text-base">{t("furnis")}</text></div>
-                <div className="flex gap-2 justify-center items-center"><PiElevatorFill size={20}/><text className="text-xs md:text-sm xl:text-base">{t("elevator")}</text></div>
                 <div className="flex gap-2 justify-center items-center"><GiHomeGarage size={20}/><text className="text-xs md:text-sm xl:text-base">{t("garage")}</text></div>
-                <div className="flex gap-2 justify-center items-center"><SiApacheparquet size={30}/><text className="text-xs md:text-sm xl:text-base">Şerifoğlu Lamine Parke (meşe)</text></div>
-                <div className="flex gap-2 justify-center items-center"><IoFunnelSharp size={25}/><text className="text-xs md:text-sm xl:text-base">Franke Ankastraler</text></div>
-                <div className="flex gap-2 justify-center items-center"><TbAirConditioning size={35}/><text className="text-xs md:text-sm xl:text-base">MITSUBISHI multi sistem klima</text></div>
-                <div className="flex gap-2 justify-center items-center"><GiDoor size={35}/><text className="text-xs md:text-sm xl:text-base">Lamine Kapılar (GREEN DOOR)</text></div>
+                <div className="flex gap-2 justify-center items-center"><SiApacheparquet size={30}/><text className="text-xs md:text-sm xl:text-base">{t("parquet")}</text></div>
+                <div className="flex gap-2 justify-center items-center"><IoFunnelSharp size={25}/><text className="text-xs md:text-sm xl:text-base">{t("cooker")}</text></div>
+                <div className="flex gap-2 justify-center items-center"><TbAirConditioning size={35}/><text className="text-xs md:text-sm xl:text-base">{t("air")}</text></div>
+                <div className="flex gap-2 justify-center items-center"><GiDoor size={35}/><text className="text-xs md:text-sm xl:text-base"></text>{t("door")}</div>
             
         </div>
         </div>

@@ -138,7 +138,7 @@ const wcI = Object.values(imagesWc);
 const roomI = Object.values(imagesRoom);
 const hallI = Object.values(imagesHall);
 
-export default async function page (){
+export default function RoomPage (){
   const t=useTranslations("Room");
 
   return (
