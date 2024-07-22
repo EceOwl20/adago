@@ -37,19 +37,19 @@ const RoomImages = ({images}) => {
           if (index === 0) {
             return (
               <div key={index} className="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" onClick={() => handleImageClick(src, index)}>
-                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="responsive" width={700} height={475} />
+                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="contain" width={700} height={475} />
               </div>
             );
           } else if (index === 1 && images.length > 2) {
             return (
               <div key={index} className="col-span-1 lg:col-span-1" onClick={() => handleImageClick(src, index)}>
-                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="responsive" width={350} height={475} />
+                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="contain" width={350} height={475} />
               </div>
             );
           } else {
             return (
               <div key={index} className="col-span-1 lg:col-span-1" onClick={() => handleImageClick(src, index)}>
-                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="responsive" width={350} height={475} />
+                <Image src={src} alt={`Image ${index + 1}`} className="w-full h-auto cursor-pointer" layout="contain" width={350} height={475} />
               </div>
             );
           }
