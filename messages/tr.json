@@ -47,29 +47,31 @@
   },
 
   "Room":{
-    "blueBedroom":"Yatak odası mavi",
-    "tvRoom":"Tv yatak odası",
+    "blueBedroom":"Yatak odası",
+    "tvRoom":"Yatak odası",
     "wc":"Banyo",
     "salon":"Salon",
     "bedroom":"Yatak Odası",
     "hall":"Hol",
     "room":"Oda",
-    "blueBedroomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "tvRoomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "wcText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "salonText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "bedroomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "hallText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet.",
-    "roomText":"Odalarımız geniş ferah ve son derece konforlu eşyalardan oluşmaktadır. Lorem ipsum dolor sit amet."
+    "blueBedroomText":"Odalarımız geniş ve ferahtır. Son kalite parkeler ve lamine kapılarla döşenmiş olup, REHAU doğrama (ROTO aksesuar, konfor ısıcam, Volkswagen sistem), otomatik panjur (Somfy motor) ve Fraenkische marka yerden ısıtma sistemi ile donatılmıştır. Evler arası ve odalar arası ses yalıtımı mükemmel düzeydedir. Mermer basamaklı, cam korkuluklu merdivenler ile şıklık katılmıştır. Brüt 287 m² alana sahip villalarımızda, 80 m² oturum alanı, 5 oda (5 banyo), 1 salon, misafir WC, vestiyer, çamaşır odası ve giyinme odası bulunmaktadır.",
+    "tvRoomText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır.",
+    "wcText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır.",
+    "salonText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır.",
+    "bedroomText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır.",
+    "hallText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır.",
+    "roomText":"Odalarımız geniş ve ferah olup son kalite malzemeler kullanılmıştır."
   },
 
   "Icons":{
     "sea":"Denize uzaklık 4 km",
     "pool":"Havuz",
     "smart":"Aypro Akıllı Ev",
-    "furnis":"Eşyalı",
-    "elevator":"Asansör",
-    "garage":"Garaj"
+    "garage":"Garaj",
+    "parquet":"Şerifoğlu Lamine Parke (meşe)",
+    "cooker":"Franke Ankastreler",
+    "air":"MITSUBISHI multi sistem klima",
+    "door":"Lamine Kapılar (GREEN DOOR)"
   },
 
   "Vilas":{
@@ -99,13 +101,13 @@
   },
   "Layout":{
     "header":"Vaziyet Planı",
-    "text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem tenetur iure asperiores beatae explicabo nostrum dignissimos ipsam deleniti magnam est."
+    "text":"Adago projesinin vaziyet planı, villaların konumlarını, bahçelerini ve çevresindeki alanı detaylı bir şekilde gösterir."
   },
   "Concept":{
     "header":"Konsept",
-    "text":"Adago, şehrin kalbinde yer alan ve modern yaşamın tüm ihtiyaçlarını karşılayan prestijli bir konut projesidir. Geniş ve ferah yaşam alanları, akıllı ev sistemleri, yeşil sosyal alanlar ve 7/24 güvenlik hizmeti ile Adago, size hem konforlu hem de güvenli bir yaşam sunar. Merkezi konumu sayesinde her yere kolay ulaşım imkanı sağlayan Adago, aynı zamanda yatırım değeri yüksek bir projedir. Adago'da hayat, hayal ettiğinizden daha güzel.",
+    "text":"Adago, havaalanına, denize ve alışveriş merkezlerine yakın, modern yaşamın tüm ihtiyaçlarını karşılayan prestijli bir villa projesidir. Geniş ve ferah yaşam alanları, akıllı ev sistemleri, her bir villaya ait havuzlu peyzajı yapılmış geniş bahçeler ile Adago, size hem konforlu hem de güvenli bir yaşam sunar. Adago, aynı zamanda yatırım değeri yüksek bir projedir. Adago'da hayat, hayal ettiğinizden daha güzel.",
     "header2":"Adago: Modern ve Konforlu Yaşam Alanları",
-    "text2":"Adago, şehrin tam merkezinde konumlanan ve modern yaşamın tüm gereksinimlerini karşılayan seçkin bir konut projesidir. Ferah ve geniş daireler, ileri teknoloji akıllı ev sistemleri, yemyeşil sosyal alanlar ve 7/24 güvenlik ile Adago, size hem rahat hem de güvenli bir yaşam sunuyor. Merkezi konumu sayesinde ulaşım kolaylığı sağlayan Adago, aynı zamanda yüksek yatırım potansiyeline sahip. Adago'da yaşam, beklentilerinizin ötesinde bir deneyim sunar."
+    "text2":"Adago, modern yaşamın tüm gereksinimlerini karşılayan seçkin bir villa projesidir. Ferah ve geniş daireler, ileri teknoloji akıllı ev sistemleri, her bir villaya ait havuzlu peyzajı yapılmış geniş bahçeler ile Adago, size hem rahat hem de güvenli bir yaşam sunuyor. Adago, aynı zamanda yüksek yatırım potansiyeline sahip. Adago'da yaşam, beklentilerinizin ötesinde bir deneyim sunar."
   },
   "Project":{
     "header":"Yonca Homes",

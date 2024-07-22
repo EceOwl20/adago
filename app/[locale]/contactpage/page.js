@@ -3,14 +3,8 @@ import ContactEmail from '../component/common/ContactEmail'
 import Villa3 from "@/public/images/villalar/villa3.jpeg"
 import Image from 'next/image'
 
-async function getStrapiData(url) {
-  const res = await fetch(url);
-  const data = await res.json();
-  return data;
 
-}
-
-export default async function page (){
+export default function page (){
   return (
     <div className='flex flex-col'>
         <div className='flex w-full h-96 2xl:h-[900px]'>
