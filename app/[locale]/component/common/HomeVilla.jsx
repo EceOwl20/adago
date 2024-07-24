@@ -19,12 +19,14 @@ import salon4 from '@/public/images/villalar/salon4.jpeg'
 import salon5 from '@/public/images/villalar/salon5.jpeg'
 
 
-import { useTranslations } from "next-intl";
+//import { useTranslations } from "next-intl";
 
-const HomeVilla = () => {
-  const t = useTranslations("Home");
+const HomeVilla = ({data}) => {
+  //const t = useTranslations("Home");
   const [emblaRef, embla] = useEmblaCarousel({ loop: true, draggable: false });
   const [intervalId, setIntervalId] = useState(null);
+
+  const { heading, subHeading, Slider } = data;
 
   const images = [villa1, villa2, villa3, villa5, villa6, yatakodasi1, yatakodasi2, yatakodasi3, yatakodasi4, yatakodasi5, salon1, salon2, salon3, salon4, salon5];
 
@@ -49,11 +51,11 @@ const HomeVilla = () => {
     <div className="relative h-screen lg:h-screen w-full">
       <div className="absolute inset-0 z-0 overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          {images.map((image, index) => (
+        {Slider.map((sliderphoto, index) => (
             <div key={index} className="flex-[0_0_100%]">
               <div
                 className="h-screen lg:h-screen bg-cover bg-center w-full"
-                style={{ backgroundImage: `url(${image.src})` }}
+                style={{ backgroundImage: `url(${"http://localhost:1337" + sliderphoto.photo.url})` }}
               ></div>
             </div>
           ))}
@@ -62,8 +64,8 @@ const HomeVilla = () => {
       <div className="bg-black/30 absolute inset-0 z-[1]"></div>
       <div className='flex flex-col w-full h-full justify-center items-center text-white z-50'>
         <div className='flex flex-col justify-center items-center w-1/2 h-1/2 text-center gap-[10px] lg:gap-[25px]'>
-          <span className="lg:text-2xl xl:text-4xl font-hurme font-semibold z-50 text-xl">{t("title")}</span>
-          <p className='flex text-sm lg:text-base xl:text-lg font-light z-50'>{t("description")}</p>
+          <span className="lg:text-2xl xl:text-4xl font-hurme font-semibold z-50 text-xl">{heading}</span>
+          <p className='flex text-sm lg:text-base xl:text-lg font-light z-50'>{subHeading}</p>
         </div>
       </div>
     </div>

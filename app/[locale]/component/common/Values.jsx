@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+//import { useTranslations } from "next-intl";
 import villaImage from "@/public/images/villalar/villa3.jpeg"
 
-const Values = () => {
+const Values = ({data}) => {
 
-  const t=useTranslations("Values");
+  const { header, subHeader, desc, valueImage } = data;
+  //const t=useTranslations("Values");
 
   return (
     <div id="a"className="flex w-full bg-white justify-center items-center mb-20 lg:mb-40 xl:mb-60">
@@ -15,13 +16,13 @@ const Values = () => {
         </div>
         <div className="flex flex-col lg:w-2/3  xl:w-3/5 font-hurme items-start justify-center gap-[5px] xl:gap-[15px] ">
           <span className="text-base md:text-lg lg:text-xl font-semibold uppercase">
-            {t("title")}
+            {header}
           </span>
           <span className="text-base md:text-lg lg:text-2xl font-bold text-royalBlue">
-          {t("subTitle")}
+          {subHeader}
           </span>
           <text className="text-sm lg:text-base break-keep">
-          {t("text")}
+          {desc}
           </text>
         </div>
       </div>

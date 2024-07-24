@@ -1,13 +1,16 @@
 "use client"
-import React from "react";
+import React, { useState, useEffect, createContext, useContext } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logoImage from "@/public/images/logoWhite.png"
-import { useTranslations } from "next-intl";
+import Cookies from "js-cookie";
+//import { useTranslations } from "next-intl";
 
 
-const Footer = () => {
-  const t=useTranslations("Navbar");
+const Footer = ({data}) => {
+  //const t=useTranslations("Navbar");
+
+  const { institutional, project, contact } = data;
 
   return (
     <div className="flex flex-col bg-darkSeaBlue h-[150px] w-full">
@@ -21,7 +24,7 @@ const Footer = () => {
             href="/contactpage"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
-            {t("contact")}
+            {institutional.text}
           </Link>
         </div>
 
@@ -40,13 +43,13 @@ const Footer = () => {
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
-            {t("institutional")}
+            {project.text}
           </Link>
           <Link
             href="/"
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
-            {t("project")}
+            {contact.text}
           </Link>
           
         </div>
