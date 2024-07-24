@@ -4,6 +4,7 @@ import { cookies } from "next/headers";
 import { getProjectPageData } from "@/lib/data.js";
 
 
+
 export default async function ProjectPage() {
   const cookieLanguage = cookies();
   const lang = cookieLanguage.get("language");
