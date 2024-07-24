@@ -27,7 +27,7 @@ const Navbar = ({data}) => {
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
     Cookies.set("language", newLanguage);
-    window.location.href = "/"; 
+    window.location.reload(); 
   };
 
   const languages = ["EN", "TR", "RU"];
