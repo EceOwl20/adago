@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { IoIosArrowBack, IoIosArrowForward, IoIosCloseCircleOutline } from "react-icons/io";
 
 const RoomImages = ({images}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -57,11 +58,11 @@ const RoomImages = ({images}) => {
       </div>
 
       {isFullScreen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90">
-          <button className="absolute top-20 right-0 m-4 p-2 text-white bg-gray-800 rounded-full" onClick={handleCloseFullScreen}>X</button>
-          <button className="absolute left-0 ml-4 p-2 text-white bg-gray-800 rounded-full" onClick={handlePrevImage}>&lt;</button>
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 top-36">
+          <button className="absolute top-0 right-2 px-3 py-1 rounded-full text-lg font-extrabold text-white" onClick={handleCloseFullScreen}><IoIosCloseCircleOutline size={40}/></button>
+          <button className="absolute left-2 px-3 py-1 text-white rounded-full text-lg font-bold" onClick={handlePrevImage}><IoIosArrowBack size={40}/></button>
           <Image src={selectedImage} alt="Full Screen Image" className="cursor-pointer" layout="responsive" width={1200} height={800} />
-          <button className="absolute right-0 mr-4 p-2 text-white bg-gray-800 rounded-full" onClick={handleNextImage}>&gt;</button>
+          <button className="absolute right-2 px-3 py-1 text-white  rounded-full text-lg font-bold" onClick={handleNextImage}><IoIosArrowForward size={40}/></button>
         </div>
       )}
     </>
