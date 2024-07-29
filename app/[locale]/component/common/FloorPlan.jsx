@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import photo from "@/public/images/villalar/zemin.png";
-import photo2 from "@/public/images/villalar/kat1.png";
-import photo3 from "@/public/images/villalar/roof.png";
+import photo from "@/public/images/villalar/zeminKat.png";
+import photo2 from "@/public/images/villalar/kat1Plan.png";
+import photo3 from "@/public/images/villalar/roofPlan.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
