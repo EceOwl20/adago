@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "@/public/images/villalar/villa2.jpeg";
+import photo from "@/public/images/villalar/roof2.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
