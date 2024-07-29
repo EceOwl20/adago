@@ -12,7 +12,7 @@ const Concept = ({data}) => {
       <div
         className="flex flex-col w-full h-screen bg-black items-center justify-evenly gap-1 text-white"
         style={{
-          backgroundImage: 'url("/images/villalar/villa6.jpeg")',
+          backgroundImage: `url(${"http://localhost:1337" + image.url})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

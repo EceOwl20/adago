@@ -1,8 +1,9 @@
-"use client";
 
 import React from "react";
 import Room from "../../component/common/Room";
-import { useTranslations } from "next-intl";
+//import { useTranslations } from "next-intl";
+import { cookies } from "next/headers";
+import { getRoomPageData } from "@/lib/data.js";
 
 import salon1 from "@/public/images/villalar/salon1.jpeg";
 import salon2 from "@/public/images/villalar/salon2.jpeg";
@@ -138,18 +139,26 @@ const wcI = Object.values(imagesWc);
 const roomI = Object.values(imagesRoom);
 const hallI = Object.values(imagesHall);
 
-export default function RoomPage (){
-  const t=useTranslations("Room");
+export default async function RoomPage (){
+
+  const cookieLanguage = cookies();
+  const lang = cookieLanguage.get("language");
+  const langValue = lang?.value;
+  console.log("language " + langValue);
+
+  const roomData = await getRoomPageData(langValue, "room-pages");
+
+  //const t=useTranslations("Room");
 
   return (
     <div className="flex flex-col">
-      <Room images={bluebedroom} roomName={t("blueBedroom")} roomDetail={t("blueBedroomText")}/>
-      <Room images={salon} roomName={t("salon")} roomDetail={t("salonText")}/>
+      <Room data={roomData.section[0]}/>
+      {/* <Room images={salon} roomName={t("salon")} roomDetail={t("salonText")}/>
       <Room images={bedroomI} roomName={t("bedroom")} roomDetail={t("bedroomText")}/>
       <Room images={tvroom} roomName={t("tvRoom")} roomDetail={t("tvRoomText")}/>
       <Room images={roomI} roomName={t("room")} roomDetail={t("roomText")}/>
       <Room images={hallI} roomName={t("hall")} roomDetail={t("hallText")}/>
-      <Room images={wcI} roomName={t("wc")} roomDetail={t("wcText")}/>
+      <Room images={wcI} roomName={t("wc")} roomDetail={t("wcText")}/> */}
     </div>
   );
 };
