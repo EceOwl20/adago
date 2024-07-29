@@ -16,7 +16,7 @@ import salon1 from '@/public/images/villalar/salon1.jpeg'
 import salon2 from '@/public/images/villalar/salon2.jpeg'
 import salon3 from '@/public/images/villalar/salon3.jpeg'
 import salon4 from '@/public/images/villalar/salon4.jpeg'
-import salon5 from '@/public/images/villalar/salon5.jpeg'
+import salon5 from '@/public/images/villalar/salon5.jpeg';
 
 
 //import { useTranslations } from "next-intl";

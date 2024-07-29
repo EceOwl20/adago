@@ -8,9 +8,12 @@ import Image from "next/image";
 
 const FloorPlan = ({data}) => {
   const { header, subHeader, image, button, image2, button2, image3, button3} = data;
+  const imageUrl="http://127.0.0.1:1337" + image.url;
+  const image2Url="http://127.0.0.1:1337" + image2.url;
+  const image3Url="http://127.0.0.1:1337" + image3.url;
 
   //const t = useTranslations("Floor");
-  const [currentImage, setCurrentImage] = useState(photo);
+  const [currentImage, setCurrentImage] = useState(imageUrl);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -45,23 +48,23 @@ const FloorPlan = ({data}) => {
 
         <div className="flex flex-col w-11/12 lg:flex-row-reverse items-center gap-10">
           <div className="flex-3 h-full w-full lg:w-2/3 cursor-pointer" onClick={() => openModal(currentImage)}>
-            <Image src={currentImage} alt="Selected" layout="responsive" />
+            <Image src={currentImage} alt="Selected"  width={2238} height={1330}/>
           </div>
           <div className="flex-1 flex lg:flex-col gap-4 items-center justify-center">
             <button
-              onClick={() => handleButtonClick(photo)}
+              onClick={() => handleButtonClick(imageUrl)}
               className="lg:px-4 lg:py-2 py-1 px-2 bg-royalBlue text-white rounded-md hover:bg-darkSeaBlue"
             >
               {button.text}
             </button>
             <button
-              onClick={() => handleButtonClick(photo2)}
+              onClick={() => handleButtonClick(image2Url)}
               className="lg:px-4 lg:py-2 py-1 px-2 bg-royalBlue text-white rounded-md hover:bg-darkSeaBlue"
             >
               {button2.text}
             </button>
             <button
-              onClick={() => handleButtonClick(photo3)}
+              onClick={() => handleButtonClick(image3Url)}
               className="lg:px-4 lg:py-2 py-1 px-2 bg-royalBlue text-white rounded-md hover:bg-darkSeaBlue"
             >
               {button3.text}
@@ -73,7 +76,7 @@ const FloorPlan = ({data}) => {
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 top-40">
           <div className="relative">
-            <Image src={selectedImage} alt="Selected" layout="responsive" className="max-w-full max-h-full" />
+            <Image src={selectedImage} alt="Selected" width={screen.width} height={screen.height} />
             <button
               onClick={closeModal}
               className="absolute top-56 right-5 my-2 mx-2 text-white bg-flameOrange rounded-full p-2 z-[99]"

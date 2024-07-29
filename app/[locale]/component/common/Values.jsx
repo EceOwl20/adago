@@ -12,7 +12,7 @@ const Values = ({data}) => {
     <div id="a"className="flex w-full bg-white justify-center items-center mb-20 lg:mb-40 xl:mb-60">
       <div className="flex flex-col lg:flex-row w-full xl:w-5/6 justify-center items-center gap-[30px] xl:gap-[70px] mx-[25px] md:mx-[45px]">
         <div className="flex w-full md:w-3/5 xl:w-2/5 justify-center"   >
-        <img src={`http://localhost:1337${valueImage.url}`} alt="business" layout="responsive" width={600} height={200}/>
+        <Image src={`http://127.0.0.1:1337${valueImage.url}`} alt="business" layout="responsive" width={1600} height={900}/>
         </div>
         <div className="flex flex-col lg:w-2/3  xl:w-3/5 font-hurme items-start justify-center gap-[5px] xl:gap-[15px] ">
           <span className="text-base md:text-lg lg:text-xl font-semibold uppercase">

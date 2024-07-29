@@ -9,7 +9,7 @@ const StrapiImage = ({ src, alt, height, width, className }) => {
 
   return (
     <Image
-      src={imageUrl ?? imageFallback}
+      src={imageUrl }
       alt={alt}
       height={height}
       width={width}

@@ -1,11 +1,14 @@
 import React from "react";
 import photo from "@/public/images/villalar/villa2.jpeg";
 import Image from "next/image";
+import StrapiImage from "../../component/StrapiImage";
 //import { useTranslations } from "next-intl";
 
 const LayoutPlan = ({data}) => {
   //const t=useTranslations("Layout");
   const { header, text, image} = data;
+  const imageUrl = "http://127.0.0.1:1337" + image.url;
+  console.log(imageUrl + " gjfehkdhbjşkltrrbg")
 
   return (
     <div className="flex h-screen w-screen bg-white my-10 lg:my-20 justify-center">
@@ -25,7 +28,7 @@ const LayoutPlan = ({data}) => {
         </div>
         <div className="flex flex-col items-center">
           <div className="flex h-full w-full lg:w-2/3">
-          <Image src={photo} alt="layoutPlan" layout="responsive" />
+          <Image src={imageUrl} alt="layoutPlan" width={2504} height={1602} />
           </div>
         </div>
       </div>
