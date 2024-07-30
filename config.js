@@ -1,4 +1,4 @@
-export const locales = ["tr", "en","ru"];
+export const locales = ["tr", "en","ru", "ae"];
 
 export const defaultLocale = "tr";
 
@@ -8,6 +8,7 @@ export const pathnames = {
   "/": {
     tr: "/",
     en: "/homepage",
-    ru: "/домашняястраница"
+    ru: "/домашняястраница",
+    ae:"/الصفحة الرئيسية"
   },
 };

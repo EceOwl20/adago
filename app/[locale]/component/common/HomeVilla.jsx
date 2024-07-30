@@ -9,7 +9,6 @@ import villa5 from "@/public/images/villalar/villa5.jpeg";
 import villa6 from "@/public/images/villalar/villa6.jpeg";
 import yatakodasi1 from '@/public/images/villalar/yatakodası1.jpeg'
 import yatakodasi2 from '@/public/images/villalar/yatakodası2.jpeg'
-import yatakodasi3 from '@/public/images/villalar/yatakodası3.jpeg'
 import yatakodasi4 from '@/public/images/villalar/yatakodası4.jpeg'
 import yatakodasi5 from '@/public/images/villalar/yatakodası5.jpeg'
 import salon1 from '@/public/images/villalar/salon1.jpeg'
@@ -26,7 +25,7 @@ const HomeVilla = () => {
   const [emblaRef, embla] = useEmblaCarousel({ loop: true, draggable: false });
   const [intervalId, setIntervalId] = useState(null);
 
-  const images = [villa1, villa2, villa3, villa5, villa6, yatakodasi1, yatakodasi2, yatakodasi3, yatakodasi4, yatakodasi5, salon1, salon2, salon3, salon4, salon5];
+  const images = [villa1, villa2, villa3, villa5, villa6, yatakodasi1, yatakodasi2, yatakodasi4, yatakodasi5, salon1, salon2, salon3, salon4, salon5];
 
   useEffect(() => {
     if (embla) {

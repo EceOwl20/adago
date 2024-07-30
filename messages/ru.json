@@ -2,7 +2,7 @@
 
     "LocaleSwitcher": {
     "label": "Изменение языка",
-    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Неизвестный}}"
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} ae {AE} other {Неизвестный}}"
     
    
   },

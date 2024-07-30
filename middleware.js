@@ -14,7 +14,7 @@ export const config = {
     // Match only internationalized pathnames
     matcher: [
         "/",
-        "/(en|tr|ru)/:path*",
+        "/(en|tr|ru|ae)/:path*",
         "/((?!_next|_vercel|api|.*\\..*).*)"
     ],
 };

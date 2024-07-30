@@ -1,7 +1,7 @@
 {
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Unknown}}"
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} ae {AE} other {Unknown}}"
   },
 
   "Navbar": {
