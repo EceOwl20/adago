@@ -8,7 +8,10 @@
     "institutional": "Institutional",
     "project": "Project",
     "vilas": "Villas",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hrefProject":"/en/project",
+    "hrefContact":"/en/contact",
+    "hrefLogo":"/en/homepage"
   },
 
   "Home": {
@@ -90,7 +93,11 @@
     "concept":"Concept",
     "rooms":"Rooms",
     "floor":"Floor Plan",
-    "layout":"Layout Plan"
+    "layout":"Layout Plan",
+    "hrefConcept":"/en/project/concept",
+    "hrefRooms":"/en/project/rooms",
+    "hrefFloor":"/en/project/floorPlan",
+    "hrefLayout":"/en/project/layoutPlan"
   },
   "Floor":{
     "header":"Floor Plan",
@@ -112,6 +119,7 @@
   "Project":{
  "header":"Yonca Homes",
  "text":"This special villa, which offers luxury and comfort together, promises a peaceful life for you and your family. Contact us now for details!",
- "button":"More"
+ "button":"More",
+ "hrefButton":"/en/project/concept"
  }
 }

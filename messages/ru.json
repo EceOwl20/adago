@@ -11,7 +11,10 @@
     "institutional":"Институциональный",
     "project":"Проект",
     "vilas":"Виллы",
-    "contact":"Контакт"
+    "contact":"Контакт",
+    "hrefProject":"/ru/project",
+    "hrefContact":"/ru/contact",
+    "hrefLogo":"/ru/домашняястраница"
     },
 
     "Home":{
@@ -93,7 +96,11 @@
     "concept":"Концепция",
     "rooms":"Номера",
     "floor":"Поэтажный план",
-    "layout":"План размещения"
+    "layout":"План размещения",
+    "hrefConcept":"/ru/project/concept",
+    "hrefRooms":"/ru/project/rooms",
+    "hrefFloor":"/ru/project/floorPlan",
+    "hrefLayout":"/ru/project/layoutPlan"
   },
   "Floor":{
     "header":"Поэтажный план",
@@ -115,6 +122,7 @@
   "Project":{
  "header":"Дома Йонка",
  "text":"Эта особенная вилла, сочетающая в себе роскошь и комфорт, обещает спокойную жизнь вам и вашей семье. Свяжитесь с нами сейчас для получения подробной информации!",
- "button":"Еще"
+ "button":"Еще",
+ "hrefButton":"/ru/project/concept"
  }
 }

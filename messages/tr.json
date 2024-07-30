@@ -8,7 +8,10 @@
     "institutional": "Kurumsal",
     "project": "Projeler",
     "vilas": "Villalar",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "hrefProject":"/project",
+    "hrefContact":"/contact",
+    "hrefLogo":"/"
   },
 
   "Home": {
@@ -90,7 +93,11 @@
     "concept":"Konsept",
     "rooms":"Odalar",
     "floor":"Kat Planı",
-    "layout":"Vaziyet Planı"
+    "layout":"Vaziyet Planı",
+    "hrefConcept":"/project/concept",
+    "hrefRooms":"/project/rooms",
+    "hrefFloor":"/project/floorPlan",
+    "hrefLayout":"/project/layoutPlan"
   },
   "Floor":{
     "header":"Kat Planı",
@@ -112,6 +119,7 @@
   "Project":{
     "header":"Yonca Homes",
     "text":"Lüks ve konforun bir arada sunulduğu bu özel villa, size ve ailenize huzurlu bir yaşam vadediyor. Detaylar için hemen iletişime geçin!",
-    "button":"Daha fazlası"
+    "button":"Daha fazlası",
+    "hrefButton":"/project/concept"
   }
 }

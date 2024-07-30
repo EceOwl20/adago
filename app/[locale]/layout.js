@@ -12,7 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export async function getServerSideProps(context) {
   // Get the language from the request headers
-  const language = context.req.headers['accept-language'];
+  const language = context.req.cookies.language || context.req.headers['accept-language'].split(',')[0].split('-')[0];
+
   context.res.setHeader('Set-Cookie', `language=${language}; Path=/; HttpOnly`);
 }
 
@@ -22,6 +23,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children, language })  {
+
   if (!locales.includes(defaultLocale)) notFound();
   const messages = useMessages();
 
