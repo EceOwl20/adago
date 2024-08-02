@@ -8,7 +8,10 @@
     "institutional": "مؤسسي",
     "project": "مشروع",
     "vilas": "الفيلات",
-    "contact": "اتصال"
+    "contact": "اتصال",
+    "hrefProject":"/ae/project",
+    "hrefContact":"/ae/contactpage",
+    "hrefLogo":"/ae/الصفحة الرئيسية"
   },
   "Home": {
     "title": "AdaGo",
@@ -84,7 +87,11 @@
           "concept": "المفهوم",
           "rooms": "الغرف",
           "floor": "خطة الطابق",
-          "layout": "خطة التوزيع"
+          "layout": "خطة التوزيع",
+          "hrefConcept":"/ae/project/concept",
+    "hrefRooms":"/ae/project/rooms",
+    "hrefFloor":"/ae/project/floorPlan",
+    "hrefLayout":"/ae/project/layoutPlan"
         },
         "Floor": {
           "header": "خطة الطابق",
@@ -106,7 +113,8 @@
         "Project": {
           "header": "بيوت يونكا",
           "text": "هذه الفيلا الخاصة، التي تقدم الفخامة والراحة معًا، تعد بحياة هادئة لك ولعائلتك. اتصل بنا الآن للحصول على التفاصيل!",
-          "button": "المزيد"
+          "button": "المزيد",
+          "hrefButton":"/ae/project/concept"
         }
       }
       

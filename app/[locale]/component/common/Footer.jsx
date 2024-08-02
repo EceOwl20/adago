@@ -18,7 +18,7 @@ const Footer = () => {
          
         
           <Link
-            href="/contactpage"
+            href={t("hrefContact")}
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange"
           >
             {t("contact")}
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className="flex w-1/4 lg:w-1/5 justify-center ">
-        <Link href="/"> 
+        <Link  href={t("hrefLogo")}> 
         <Image
           src={logoImage}
           alt="logo"
@@ -37,13 +37,13 @@ const Footer = () => {
 
         <div className="lg:flex grid grid-cols-1 lg:gap-20 xl:gap-32 gap-[10px] justify-end items-end w-1/3 text-end">
           <Link
-            href="/"
+             href={t("hrefLogo")}
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
             {t("institutional")}
           </Link>
           <Link
-            href="/"
+             href={t("hrefProject")}
             className="2xl:text-xl xl:text-lg md:text-base text-xs text-white font-semibold hover:text-flameOrange "
           >
             {t("project")}

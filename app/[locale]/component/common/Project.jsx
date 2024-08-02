@@ -25,7 +25,7 @@ const Project = () => {
             </p></div>
 
             <Link
-              href="/project/concept"
+              href={t("hrefButton")}
 
               className="flex bg-flameOrange rounded-md px-6 py-3"
             >

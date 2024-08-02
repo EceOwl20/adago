@@ -20,24 +20,24 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky top-0 p-4 z-[9999]">
       <div className="w-3/12 md:w-2/12 lg:w-1/12 ">
-        <Link href="/"><Image src={Logo1} alt="logo" /></Link>
+        <Link href={t("hrefLogo")}><Image src={Logo1} alt="logo" /></Link>
       </div>
       <div className="hidden md:flex w-4/5 md:justify-end justify-end items-center gap-10">
         <Link
-          href="/#a"
+          href={t("hrefLogo")}
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("institutional")}
         </Link>
         <Link
-          href="/project"
+          href={t("hrefProject")}
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("project")}
         </Link>
         
         <Link
-          href="/contactpage"
+          href={t("hrefContact")}
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("contact")}
@@ -70,20 +70,20 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white/30 backdrop-blur-md flex flex-col items-center md:hidden">
           <Link
-            href="/"
+            href={t("hrefLogo")}
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("institutional")}
           </Link>
           <Link
-            href="/project"
+            href={t("hrefProject")}
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("project")}
           </Link>
           
           <Link
-            href="/contactpage"
+           href={t("hrefContact")}
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("contact")}
