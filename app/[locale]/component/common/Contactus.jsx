@@ -11,7 +11,7 @@ const Contactus = () => {
                 <LuPhone size={24}/>
                 <div className='flex flex-col gap-[5px]'>
                 <text className='text-lg font-semibold'>Phone</text>
-                <span className='text-base font-light'>+90 123 456 78 90</span>
+                <span className='text-base font-light'>+90 532 562 77 77</span>
                 </div>
             </div>
             <div className='flex gap-[20px] items-center justify-center'>
