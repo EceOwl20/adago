@@ -1,6 +1,6 @@
 "use client"; // Bu satırı ekleyin
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LogoWhite from "@/public/images/logoWhite.png";
@@ -10,12 +10,37 @@ import LangSwitcher from "../../../../LangSwitcher";
 import Logo1 from "@/public/images/logo1.png"
 
 const Navbar = () => {
+  const t=useTranslations("Navbar");
+
   const [isOpen, setIsOpen] = useState(false);
+  const sidebarRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  const t=useTranslations("Navbar");
+
+    // Sidebar dışına tıklama ve scroll algılama
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+          setIsOpen(false);
+        }
+      };
+  
+      const handleScroll = () => {
+        setIsOpen(false);
+      };
+  
+      // Tıklama ve scroll eventlerini dinle
+      document.addEventListener('mousedown', handleClickOutside);
+      window.addEventListener('scroll', handleScroll);
+  
+      // Cleanup function
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
 
   return (
     <div className="flex w-full justify-between items-center bg-darkSeaBlue sticky top-0 p-4 z-[9999]">
@@ -68,9 +93,9 @@ const Navbar = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white/30 backdrop-blur-md flex flex-col items-center md:hidden">
+        <div ref={sidebarRef} className="absolute top-[60px] left-0 w-full bg-white/30 backdrop-blur-md flex flex-col items-center md:hidden ">
           <Link
-            href={t("hrefLogo")}
+             href={t("hrefLogo")}
             className="py-2 w-1/5 text-black font-semibold font-hurme text-base"
           >
             {t("institutional")}
@@ -88,7 +113,7 @@ const Navbar = () => {
           >
             {t("contact")}
           </Link>
-          <div className="py-2 w-1/5  font-semibold font-hurme text-base">
+          <div className="py-2 w-1/5 font-semibold font-hurme text-base justify-center items-center text-center cursor-pointer">
           <LangSwitcher />
           </div>
         </div>
