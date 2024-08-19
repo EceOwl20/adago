@@ -121,5 +121,11 @@
     "text":"Lüks ve konforun bir arada sunulduğu bu özel villa, size ve ailenize huzurlu bir yaşam vadediyor. Detaylar için hemen iletişime geçin!",
     "button":"Daha fazlası",
     "hrefButton":"/project/concept"
-  }
+  },
+
+  "LocaleLayout":{
+    "title":"AdaGo Yapı İnşaat - Antalya'nın Önde Gelen Lüks Villa İnşaat Firması",
+    "description":"AdaGo Yapı İnşaat - Antalya'nın önde gelen villa inşaat firması. Ermenek bölgesinde lüks, estetik ve fonksiyonel yaşam alanlarında uzmanlaşmıştır. Hayalinizdeki evi gerçeğe dönüştürmek için bugün bizimle iletişime geçin.",
+    "keywords":"villa inşaatı, Antalya, lüks villalar, gayrimenkul, Adago Yapı"
+   }
 }

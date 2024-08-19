@@ -121,5 +121,11 @@
  "text":"This special villa, which offers luxury and comfort together, promises a peaceful life for you and your family. Contact us now for details!",
  "button":"More",
  "hrefButton":"/en/project/concept"
+ },
+
+ "LocaleLayout":{
+  "title":"AdaGo Yapı İnşaat - Antalya's Premier Luxury Villa Construction Firm",
+  "description":"AdaGo Yapı İnşaat - Antalya's leading villa construction firm. Specializing in luxury, aesthetic, and functional living spaces in the Ermenek region. Contact us today to make your dream home a reality.",
+  "keywords":"villa construction, Antalya, luxury villas, real estate, Adago Yapı"
  }
 }
