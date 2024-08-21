@@ -26,7 +26,32 @@ export async function metadata({ locale }) {
   return {
     title: t("title"),
     description: t("description"),
-    keywords:t("keywords")
+    keywords:t("keywords"),
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon-32x32.png',
+      apple: '/apple-touch-icon.png',
+      other: [
+        {
+          rel: 'icon',
+          url: '/android-chrome-192x192.png',
+          sizes: '192x192',
+        },
+        {
+          rel: 'icon',
+          url: '/android-chrome-512x512.png',
+          sizes: '512x512',
+        },
+        {
+          rel: 'icon',
+          url: '/favicon-16x16.png',
+          sizes: '16x16',
+        },
+        
+      ],
+    },
+    manifest: '/site.webmanifest',
+  themeColor: '#ffffff',
   };
 }
 

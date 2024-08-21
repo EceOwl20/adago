@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <div className="flex h-auto justify-center  items-center bg-black py-3 gap-1">
       <span className="text-[13px] text-white font-normal leading-normal tracking-[0.8px] font-hurme pt-[4px]">Powered by </span>
-      <Link href="https://dgtlface.com/tr"  rel="norefferer nofollower" target="_blank" className="flex items-center  justify-center">
+      <Link href="https://dgtlface.com/tr"  rel="norefferer nofollower" target="_blank" className="flex items-center justify-center">
       <LogoSvg className="flex items-center justify-center" width={80} height={20}/>
         </Link>
         </div>
