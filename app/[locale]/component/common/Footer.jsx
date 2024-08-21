@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logoImage from "@/public/images/logoWhite.png"
 import { useTranslations } from "next-intl";
-
+import LogoSvg from "../common/logoSvg";
 
 const Footer = () => {
   const t=useTranslations("Navbar");
@@ -52,9 +52,13 @@ const Footer = () => {
         </div>
       
       </div>
-      <div className="flex h-1/6 justify-center lg:justify-end items-end bg-black">
-          <text className="text-white font-hurme font-semibold text-xs md:text-sm"> All rights reserved</text>
+      <div className="flex h-auto justify-center  items-center bg-black py-3 gap-1">
+      <span className="text-[13px] text-white font-normal leading-normal tracking-[0.8px] font-hurme pt-[4px]">Powered by </span>
+      <Link href="https://dgtlface.com/tr"  rel="norefferer nofollower" target="_blank" className="flex items-center  justify-center">
+      <LogoSvg className="flex items-center justify-center" width={80} height={20}/>
+        </Link>
         </div>
+        
     </div>
   );
 };
