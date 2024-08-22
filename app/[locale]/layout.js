@@ -51,7 +51,7 @@ export async function metadata({ locale }) {
       ],
     },
     manifest: '/site.webmanifest',
-  themeColor: '#ffffff',
+  
   };
 }
 
