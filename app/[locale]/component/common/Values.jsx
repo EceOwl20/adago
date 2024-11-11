@@ -18,7 +18,7 @@ const Values = () => {
             {t("title")}
           </span>
           <span className="text-base md:text-lg lg:text-2xl font-bold text-royalBlue">
-          {t("subTitle")}
+          {t("subTitle")} 
           </span>
           <text className="text-sm lg:text-base break-keep">
           {t("text")}
