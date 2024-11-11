@@ -14,7 +14,8 @@
     "contact":"Контакт",
     "hrefProject":"/ru/project",
     "hrefContact":"/ru/contactpage",
-    "hrefLogo":"/ru/домашняястраница"
+    "hrefLogo":"/ru/домашняястраница",
+    "hrefInstitutional":"/ru/#a"
     },
 
     "Home":{

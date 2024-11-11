@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
       <div className="hidden md:flex w-4/5 md:justify-end justify-end items-center gap-10">
         <Link
-          href={t("hrefLogo")}
+          href={t("hrefInstitutional")}
           className=" text-white font-semibold font-hurme text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-[19px]  hover:text-flameOrange"
         >
           {t("institutional")}

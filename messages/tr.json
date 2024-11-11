@@ -11,7 +11,8 @@
     "contact": "İletişim",
     "hrefProject":"/project",
     "hrefContact":"/contactpage",
-    "hrefLogo":"/"
+    "hrefLogo":"/",
+    "hrefInstitutional":"/tr/#a"
   },
 
   "Home": {

@@ -11,7 +11,8 @@
     "contact": "اتصال",
     "hrefProject":"/ae/project",
     "hrefContact":"/ae/contactpage",
-    "hrefLogo":"/ae/الصفحة الرئيسية"
+    "hrefLogo":"/ae/الصفحة الرئيسية",
+    "hrefInstitutional":"/ae/#a"
   },
   "Home": {
     "title": "AdaGo",

@@ -11,7 +11,8 @@
     "contact": "Contact",
     "hrefProject":"/en/project",
     "hrefContact":"/en/contactpage",
-    "hrefLogo":"/en/homepage"
+    "hrefLogo":"/en/homepage",
+    "hrefInstitutional":"/en/#a"
   },
 
   "Home": {
